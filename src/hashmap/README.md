@@ -29,6 +29,7 @@ A quick description of how to use the module, datatypes, and functions
 + <details>
     <summary>Functions</summary>
 	<br>
+
   + <details> 
       <summary>hashMap_new</summary>
       Creates a new hashMap Object, used as an initializer for the datatype. 
