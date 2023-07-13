@@ -14,12 +14,29 @@ A quick description of how to use the module, datatypes, and functions
 <summary> <b> typedef _keyValuePair </b> </summary>
 
 > keyValuePair element
+> ```
+> typedef struct 
+> {
+>     void  *key;
+>     size_t key_size;
+>     void  *value;
+>     size_t value_size;
+> } _keyValuePair;
+> ```
 </details>
 
 <details open>
 <summary> <b> typedef hashMap </b> </summary>
 
 > hashMap element 
+> ```
+> typedef struct 
+> {
+>     _keyValuePair *_list;
+>     int _count;
+>     int _alloc_len;
+> } hashMap;
+> ```
 </details>
 
 <details open>
@@ -27,7 +44,7 @@ A quick description of how to use the module, datatypes, and functions
 
 > Creates a new hashMap Object, used as an initializer for the datatype. 
 > ```
-> hashMap * hashMap_new (void)
+> hashMap * hashMap_new (void);
 > ```
 > This function takes no parameters and returns a new hashMap object
 > `hashMap_new()` allocates a new hashMap and returns a hashMap pointer, this hashMap must be freed useing the `hashMap_free()` function.
@@ -38,7 +55,7 @@ A quick description of how to use the module, datatypes, and functions
 
 > Destroys hashMap Objects, used as a destructor for the datatype.
 > ```
-> void hashMap_free (hashMap *self)
+> void hashMap_free (hashMap *self);
 > ```
 > `hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
 </details>
@@ -47,10 +64,37 @@ A quick description of how to use the module, datatypes, and functions
 <summary> <b> hashMap_set </b> </summary>
 
 > desctiprion
+> ```
+> void hashMap_set (hashMap *self, void *key_ptr, size_t key_size, void *value_ptr, size_t value_size);
+> ```
 </details>
 
 <details open>
 <summary> <b> hashMap_remove </b> </summary>
 
 > desc
+> ```
+> void hashMap_remove (hashMap *self, void *key_ptr, size_t key_size);
+> ```
+</details>
+
+
+<details open>
+<summary> <b> hashMap_lookup</b> </summary>
+
+> desc
+> ```
+> int hashMap_lookup (hashMap *self, void *key_ptr, size_t key_size, void *value_return);
+> ```
+</details>
+
+
+<details open>
+<summary> <b> hashMap_lookup_size</b> </summary>
+
+> desc
+> ```
+> int hashMap_lookup_size (hashMap *self, void *key_ptr, size_t key_size, size_t *value_size_return); 
+> ```
+
 </details>
