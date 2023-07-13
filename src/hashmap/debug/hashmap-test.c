@@ -1,9 +1,9 @@
 #include <stdio.h>
 
+#include "hashmap.h"
 
 int main (void)
 {
-	printf ("main-test is working correctly");
-
+	printf ("yell\n");
 	return 0;
 }
