@@ -33,6 +33,7 @@ A quick description of how to use the module, datatypes, and functions
   + <details> 
       <summary>hashMap_new</summary>
 	  <br>
+  
       ```
       hashMap * hashMap_new (void)
       ```
@@ -45,6 +46,8 @@ A quick description of how to use the module, datatypes, and functions
     </details>
   + <details> 
       <summary>hashMap_free</summary>
+	  <br>
+
       ```
       void hashMap_free (hashMap *self)
       ```
