@@ -7,28 +7,30 @@ How to add this module to a new C/C++ project.
 First, you must copy `src/hashmap/hashmap.*` files into your program's path. Then, add `#include "hashmap.h"` in your source files. Finaly make sure that you have `hashmap.h` in the INCLUDE path, and `hashmap.c` must be compiled (and linked with) with the rest of the program sources.
 
 <details> 
-<summary>## hashMap Documentation</summary>
+<summary>hashMap Documentation</summary>
 
 A quick description of how to use the module, datatypes, and functions
-+ <details>
-    <summary>### Typedefs and Structs</summary>
+  <details>
+    <summary>Typedefs and Structs</summary>
+	<br>
 
-  + <details>
-      <summary>#### typedef _keyValuePair</summary>
+    <details>
+      <summary>typedef _keyValuePair</summary>
 
       keyValuePair element
     </details>
-  + <details>
-      <summary>#### typedef hashMap</summary>
+    <details>
+      <summary>typedef hashMap</summary>
 
       hashMap element 
     </details>
   </details>
 
-+ <details>
+  <details>
     <summary>Functions</summary>
+	<br>
 
-  + <details> 
+    <details> 
       <summary>hashMap_new</summary>
 
       Creates a new hashMap Object, used as an initializer for the datatype. 
@@ -41,7 +43,7 @@ A quick description of how to use the module, datatypes, and functions
       <br>
       This function takes no parameters and returns a new hashMap object
     </details>
-  + <details> 
+    <details> 
       <summary>hashMap_free</summary>
 
       Destroys hashMap Objects, used as a destructor for the datatype.
@@ -54,17 +56,25 @@ A quick description of how to use the module, datatypes, and functions
       <br>
       Takes a hashMap pointer, free's the allocated variables and sets values to 0/NULL incase of use after free.
     </details>
-  + <details>
+    <details>
       <summary>hashMap_set</summary>
+	  
+	  desctiprion
     </details>
-  + <details>
+    <details>
       <summary>hashMap_remove</summary>
+	  
+	  dexvr
     </details>
-  + <details>
+    <details>
       <summary>hashMap_lookup</summary>
+	  
+	  dex
     </details>
-  + <details>
+    <details>
       <summary>hashMap_lookup_size</summary>
+	  
+	  desc
     </detail>
   </details>
 </details>
