@@ -6,20 +6,20 @@ How to add this module to a new C/C++ project.
 
 First, you must copy `src/hashmap/hashmap.*` files into your program's path. Then, add `#include "hashmap.h"` in your source files. Finaly make sure that you have `hashmap.h` in the INCLUDE path, and `hashmap.c` must be compiled (and linked with) with the rest of the program sources.
 
+---
 ## hashMap Documentation
 A quick description of how to use the module, datatypes, and functions
+
 <details>
 <summary> <b> typedef _keyValuePair </b> </summary>
 
 > keyValuePair element
-<br>
 </details>
 
 <details>
 <summary> <b> typedef hashMap </b> </summary>
 
 > hashMap element 
-<br>
 </details>
 
 <details>
@@ -31,8 +31,8 @@ A quick description of how to use the module, datatypes, and functions
 > ```
 > This function takes no parameters and returns a new hashMap object
 > `hashMap_new()` allocates a new hashMap and returns a hashMap pointer, this hashMap must be freed useing the `hashMap_free()` function.
-<br>
 </details>
+
 <details>
 <summary> <b> hashMap_free </b> </summary>
 
@@ -41,19 +41,16 @@ A quick description of how to use the module, datatypes, and functions
 > void hashMap_free (hashMap *self)
 > ```
 > `hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
-<br>
 </details>
 
 <details>
 <summary> <b> hashMap_set </b> </summary>
 
 > desctiprion
-<br>
 </details>
 
 <details>
 <summary> <b> hashMap_remove </b> </summary>
 
 > desc
-<br>
 </details>
