@@ -10,19 +10,19 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 ## hashMap Documentation
 A quick description of how to use the module, datatypes, and functions
 
-<details>
+<details open>
 <summary> <b> typedef _keyValuePair </b> </summary>
 
 > keyValuePair element
 </details>
 
-<details>
+<details open>
 <summary> <b> typedef hashMap </b> </summary>
 
 > hashMap element 
 </details>
 
-<details>
+<details open>
 <summary> <b> hashMap_new </b> </summary>
 
 > Creates a new hashMap Object, used as an initializer for the datatype. 
@@ -33,7 +33,7 @@ A quick description of how to use the module, datatypes, and functions
 > `hashMap_new()` allocates a new hashMap and returns a hashMap pointer, this hashMap must be freed useing the `hashMap_free()` function.
 </details>
 
-<details>
+<details open>
 <summary> <b> hashMap_free </b> </summary>
 
 > Destroys hashMap Objects, used as a destructor for the datatype.
@@ -43,13 +43,13 @@ A quick description of how to use the module, datatypes, and functions
 > `hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
 </details>
 
-<details>
+<details open>
 <summary> <b> hashMap_set </b> </summary>
 
 > desctiprion
 </details>
 
-<details>
+<details open>
 <summary> <b> hashMap_remove </b> </summary>
 
 > desc
