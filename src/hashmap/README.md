@@ -32,7 +32,7 @@ A quick description of how to use the module, datatypes, and functions
 > ```
 > typedef struct 
 > {
->     _keyValuePair *_list;
+>     _keyValuePair **_list;
 >     int _count;
 >     int _alloc_len;
 > } hashMap;
