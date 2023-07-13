@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+#include <stdlib.h>
+#include <malloc.h>
+
 #include "hashmap.h"
 
 int main (void)
@@ -53,32 +56,30 @@ int main (void)
 	hashMap_remove (dict, &key_three, sizeof (key_three));
 
 	/* instructions */
-	if (hashMap_lookup (dict, &key_one, sizeof (key_one), &char_ret) == 0)
-		{	/* <int> : <char> */
-		printf ("key_one:   %c\n", char_ret);
-		}
 	
+	/* <int> : <char> */
+	if (hashMap_lookup (dict, &key_one, sizeof (key_one), &char_ret) == 0)
+		printf ("key_one:   '%c'\n", char_ret);
+
+	/* <char> : <char*> */
 	if (hashMap_lookup_size (dict, &key_two, sizeof (key_two), &buffer) == 0)
-		{	/* <char> : <char*> */
+		{
 		charptr_ret = realloc (charptr_ret, buffer);
 		(void)hashMap_lookup (dict, &key_two, sizeof (key_two), charptr_ret);
-		printf ("key_two:   %s\n", charptr_ret);
+		printf ("key_two:   \"%s\"\n", charptr_ret);
 		}
 
+	/* <double> : <int>			was removed, shouldnt print anything */
 	if (hashMap_lookup (dict, &key_three, sizeof (key_three), &int_ret) == 0)
-		{	/* <double> : <int> */
 		printf ("key_three: %d\n", int_ret);
-		}
-
+	
+	/* <char*> : <double> 		should match next*/
 	if (hashMap_lookup (dict, key_four, key_four_size, &double_ret) == 0)
-		{	/* <char*> : <double> */
 		printf ("key_four:  %.4f\n", double_ret);
-		}
 
+	/* <char[]> : <double> 		should match with the top one, both have identical key*/
 	if (hashMap_lookup (dict, &key_five, sizeof (key_five), &double_ret) == 0)
-		{	/* <char[]> : <double> */
 		printf ("key_five:  %.4f\n", double_ret);
-		}
 		
 
 	/* exit gracefully */
