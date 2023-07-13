@@ -14,26 +14,26 @@ A quick description of how to use the module, datatypes, and functions
 ### typedef hashMap
 
 ### hashMap_new()
-  Creates a new hashMap Object, used as an initializer for the datatype. 
+Creates a new hashMap Object, used as an initializer for the datatype. 
 
-  `hashMap_new()` allocates a new hashMap and returns a hashMap pointer, this hashMap must be freed useing the `hashMap_free()` function.
+`hashMap_new()` allocates a new hashMap and returns a hashMap pointer, this hashMap must be freed useing the `hashMap_free()` function.
 
 ```
-  hashMap * hashMap_new (void)
+hashMap * hashMap_new (void)
 ```
 
-  This function takes no parameters and returns a new hashMap object
+This function takes no parameters and returns a new hashMap object
 
 ### hashMap_free()
-  Destroys hashMap Objects, used as a destructor for the datatype.
+Destroys hashMap Objects, used as a destructor for the datatype.
 
-  `hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
+`hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
 
 ```
-  void hashMap_free (hashMap *self)
+void hashMap_free (hashMap *self)
 ```
 
-  Takes a hashMap pointer, free's the allocated variables and sets values to 0/NULL incase of use after free.
+Takes a hashMap pointer, free's the allocated variables and sets values to 0/NULL incase of use after free.
 
 
 ### hashMap_set()
