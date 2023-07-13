@@ -10,31 +10,30 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 <summary>hashMap Documentation</summary>
 
 A quick description of how to use the module, datatypes, and functions
-  <details>
++ <details>
     <summary>Typedefs and Structs</summary>
 	<br>
 
-    <details>
+  + <details>
       <summary>typedef _keyValuePair</summary>
 
       keyValuePair element
     </details>
-    <details>
+  + <details>
       <summary>typedef hashMap</summary>
 
       hashMap element 
     </details>
   </details>
 
-  <details>
++ <details>
     <summary>Functions</summary>
 	<br>
-
-    <details> 
+  + <details> 
       <summary>hashMap_new</summary>
-
       Creates a new hashMap Object, used as an initializer for the datatype. 
       <br>
+  
       `hashMap_new()` allocates a new hashMap and returns a hashMap pointer, this hashMap must be freed useing the `hashMap_free()` function.
       <br>
       ```
@@ -43,12 +42,12 @@ A quick description of how to use the module, datatypes, and functions
       <br>
       This function takes no parameters and returns a new hashMap object
     </details>
-    <details> 
+  + <details> 
       <summary>hashMap_free</summary>
-
       Destroys hashMap Objects, used as a destructor for the datatype.
       <br>
-      `hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
+      
+	  `hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
       <br>
       ```
       void hashMap_free (hashMap *self)
@@ -56,24 +55,20 @@ A quick description of how to use the module, datatypes, and functions
       <br>
       Takes a hashMap pointer, free's the allocated variables and sets values to 0/NULL incase of use after free.
     </details>
-    <details>
+  + <details>
       <summary>hashMap_set</summary>
-	  
 	  desctiprion
     </details>
-    <details>
+  + <details>
       <summary>hashMap_remove</summary>
-	  
 	  dexvr
     </details>
-    <details>
+  + <details>
       <summary>hashMap_lookup</summary>
-	  
 	  dex
     </details>
-    <details>
+  + <details>
       <summary>hashMap_lookup_size</summary>
-	  
 	  desc
     </detail>
   </details>
