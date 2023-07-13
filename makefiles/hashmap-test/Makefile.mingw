@@ -10,14 +10,14 @@
 
 
 # directory variables 
-SRC_DIR := ./src
+SRC_DIR := ./src/hashmap
 BUILD_DIR := ./build
 INSTALL_DIR := 
 
 
 # files 
 # source files 
-SRC_FILENAMES := $(shell dir /a:-d /b "$(subst /,\,$(SRC_DIR)/*.c)")
+SRC_FILENAMES := hashmap.c debug/hashmap-test.c
 SRC_FILES := $(addprefix $(SRC_DIR)/,$(SRC_FILENAMES))
 
 # compiled object files 
@@ -32,7 +32,7 @@ TARGET_EXEC := test.exe
 CC := gcc
 # Include
 INCLUDE_DIRS := -I$(SRC_DIR)
-BUILD_FLAGS := -pedantic -std=c89 -O3 -Wall -Werror $(INCLUDE_DIRS)
+BUILD_FLAGS := -pedantic -std=c89 -O0 -g -Wall -Werror -Wno-unused-function $(INCLUDE_DIRS)
 
 # linker variables
 # Linker 

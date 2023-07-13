@@ -39,12 +39,13 @@ typedef struct _hashMap hashMap;
 
 /* prototypes */
 /* constructor & destructor */
-hashMap hashMap_new  (void);
-void    hashMap_free (hashMap *s); 
+hashMap * hashMap_new  (void);
+void      hashMap_free (hashMap *s); 
 /* operations */
-void hashMap_set    (hashMap *s, void *key, size_t key_size, void *value, size_t value_size);
-void hashMap_remove (hashMap *s, void *key, size_t key_size);
-int  hashMap_lookup (hashMap *s, void *key, size_t key_size, void *value_return);
+void hashMap_set         (hashMap *s, void *key, size_t key_size, void *value, size_t value_size);
+void hashMap_remove      (hashMap *s, void *key, size_t key_size);
+int  hashMap_lookup      (hashMap *s, void *key, size_t key_size, void *value_return);
+int  hashMap_lookup_size (hashMap *s, void *key, size_t key_size, size_t *size_return);
 
 
 /* C++ support */

@@ -36,8 +36,8 @@ _keyValuePair_new (void *key, size_t key_size, void *value, size_t value_size)
 	s->_value_size = value_size;	
 
 	/* allocate key + value */
-	(unsigned char *)s->_key   = malloc (key_size);
-	(unsigned char *)s->_value = malloc (value_size);
+	s->_key   = malloc (key_size);
+	s->_value = malloc (value_size);
 
 	/* check that malloc worked */
 	assert ((unsigned char *)s->_key   != NULL);
@@ -63,8 +63,8 @@ _keyValuePair_free (_keyValuePair *s)
 	free (s->_value);
 
 	/* set things to NULL and 0 incase of use after free */	
-	(unsigned char *)s->_key   = NULL;
-	(unsigned char *)s->_value = NULL;
+	s->_key   = NULL;
+	s->_value = NULL;
 	s->_key_size   = 0;
 	s->_value_size = 0;
 	
@@ -101,7 +101,7 @@ _keyValuePair_set_key (_keyValuePair *s, void *new_key, size_t new_size)
 	s->_key_size = new_size;
 	
 	/* realloc the key to new size, then copy the new key over */
-	(unsigned char *)s->_key = realloc (new_size);
+	s->_key = realloc (s->_key, new_size);
 	assert ((unsigned char *)s->_key != NULL);
 	memcpy (s->_key, new_key, new_size);
 	}
@@ -113,9 +113,9 @@ _keyValuePair_set_value (_keyValuePair *s, void *new_value, size_t new_size)
 	s->_value_size = new_size;
 	
 	/* realloc the value to new size, then copy the new value over */
-	(unsigned char *)s->_value = realloc (new_size);
+	s->_value = realloc (s->_value, new_size);
 	assert ((unsigned char *)s->_value != NULL);
-	memcpy (s->_key, new_value, new_size);
+	memcpy (s->_value, new_value, new_size);
 	}
 
 /* hashMap */
@@ -123,7 +123,7 @@ static void
 _hashMap_extend (hashMap *s)
 	{
 	/* double the allocated space */
-	s->_alloc_len * 1;
+	s->_alloc_len *= 2;
 	s->_list = realloc (s->_list, s->_alloc_len * sizeof (_keyValuePair *));
 
 	/* check that the list reallocated successfully */
@@ -134,7 +134,7 @@ static int
 _hashMap_lookup_index (hashMap *s, void *key, size_t key_size)
 	{
 	int i;					/* forloop iterator */
-	_keyValuPair *c_pair;	/* curretn keyValuePair */
+	_keyValuePair *c_pair;	/* curretn keyValuePair */
 	int index = -1;			/* if no match is found return -1 */ 
 
 	/* loop through each item in the hashmap */
@@ -166,10 +166,10 @@ static void
 _hashMap_append (hashMap *s, void *key, size_t key_size, void *value, size_t value_size)
 	{
 	/* make sure that the alloc_size isn't 0 */
-	assert (s->_alloc_size != 0);
+	assert (s->_alloc_len != 0);
 
 	/* extend hashmap's allocated space if needed */
-	if (s->_alloc_size == s->_count)
+	if (s->_alloc_len == s->_count)
 		_hashMap_extend (s);
 		
 	/* add the new keyValuePair in the next open spot */
@@ -182,18 +182,22 @@ _hashMap_append (hashMap *s, void *key, size_t key_size, void *value, size_t val
 
 /* extern functions */
 /* hashMap functions */
-hashMap
+hashMap *
 hashMap_new (void)
 	{
 	/* return value */
-	hashMap s;
-	
+	hashMap *s;
+
+	/* allocate the hashmap */
+	s = malloc (sizeof (hashMap));
+	assert (s != NULL);
+
 	/* set default sizing values */
-	s._count = 0;
-	s._alloc_len  = 2;
+	s->_count = 0;
+	s->_alloc_len  = 2;
 	
 	/* allocate the list */
-	s._list = malloc (s._alloc_len * sizeof (_keyValuePair *));
+	s->_list = malloc (s->_alloc_len * sizeof (_keyValuePair *));
 
 	/* return */
 	return s;
@@ -220,6 +224,9 @@ hashMap_free (hashMap *s)
 	s->_list       = NULL;
 	s->_count      = 0;
 	s->_alloc_len  = 0;
+	
+	/* free the hashmap* itself */
+	free (s);
 	}
 
 void
@@ -250,11 +257,12 @@ hashMap_remove (hashMap *s, void *key, size_t key_size)
 	/* if item exists, first destroy the pair */
 	_keyValuePair_free (s->_list[item_index]);
 
+	/* shrink count by 1 element */
+	s->_count --;
+	
 	/* move the current pair at the end of the list into the empty space */
 	s->_list[item_index] = s->_list[s->_count];
 
-	/* shrink count by 1 element */
-	s->_count --;
 	}
 
 int
@@ -271,6 +279,24 @@ hashMap_lookup (hashMap *s, void *key, size_t key_size, void *value_return)
 	c_pair = s->_list[item_index];
 	memcpy (value_return, c_pair->_value, c_pair->_value_size);
 	
+	/* return succesfully */
+	return 0;
+	}
+
+int
+hashMap_lookup_size (hashMap *s, void *key, size_t key_size, size_t *size_return)
+	{
+	int item_index = _hashMap_lookup_index (s, key, key_size);
+	_keyValuePair *c_pair;	
+	
+	/* if that key doesn't exist, return -1 for failure */
+	if (item_index == -1)
+		return -1;
+
+	/* if item does exist, copy the items value over to value_return */
+	c_pair = s->_list[item_index];
+	*size_return = c_pair->_value_size;
+
 	/* return succesfully */
 	return 0;
 	}
