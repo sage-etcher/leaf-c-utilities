@@ -7,19 +7,19 @@ How to add this module to a new C/C++ project.
 First, you must copy `src/hashmap/hashmap.*` files into your program's path. Then, add `#include "hashmap.h"` in your source files. Finaly make sure that you have `hashmap.h` in the INCLUDE path, and `hashmap.c` must be compiled (and linked with) with the rest of the program sources.
 
 <details> 
-<summary>hashMap Documentation</summary>
+<summary>## hashMap Documentation</summary>
 
 A quick description of how to use the module, datatypes, and functions
 + <details>
-    <summary>Typedefs and Structs</summary>
+    <summary>### Typedefs and Structs</summary>
 
   + <details>
-      <summary>typedef _keyValuePair</summary>
+      <summary>#### typedef _keyValuePair</summary>
 
       keyValuePair element
     </details>
   + <details>
-      <summary>typedef hashMap</summary>
+      <summary>#### typedef hashMap</summary>
 
       hashMap element 
     </details>
