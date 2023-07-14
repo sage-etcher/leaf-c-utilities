@@ -109,21 +109,32 @@ Holds the size of `value_ptr`, allowing us to *safely* read and write to value_p
 > [Requirements](#requirements-1) <br>
 > [See also](#see-also-1) <br>
 
-None
+the main object used for hashMaps in this module. Holds a dynamicly allocated list of keyValuePairs, the allocated length of that list, and the actual count of items in the list.
 
 ### Syntax
 C code
 ```
 typedef struct 
 {
-	keyValuePair* list;
-	int           count;
-	int           alloc_len;
+	keyValuePair** list;
+	int            count;
+	int            alloc_len;
 } hashMap;
 ```
 
 ### Items 
-None
+`list` <br>
+Type: **keyValuePair\*\*** <br>
+A dynamically allocated list of keyValuePairs, not to be used directly. Reading data in the list is done through `hashMap_lookup`, writing data to the list is done through `hashMap_set`, removing pairs from the list is done through `hashMap_remove`. <br>
+<br>
+`alloc_len` <br>
+Type: **int** <br>
+The max number of items able to be held in `list`, updated on each realloc using `hashMap_extend` <br>
+<br>
+`count`<br>
+Type: **int**<br>
+The current number of items actually being held in `list`<br>
+<br>
 
 ### Requirements
 | | |
@@ -134,6 +145,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
+**[keyValuePair](#keyvaluepair-structure-hashmaph)**<br>
 **[hashMap](#hashmap-structure-hashmaph)**<br>
 **[hashMap_new](#hashmap_new-function-hashmaph)**<br>
 **[hashMap_free](#hashmap_free-function-hashmaph)**<br>
