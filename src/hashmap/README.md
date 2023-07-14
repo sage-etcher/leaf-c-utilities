@@ -9,12 +9,12 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 ---
 # hashMap Documentation
 
-> <details><summary>Structures</summary>
+> <details open><summary>Structures</summary>
 >
 > > [keyValuePair Struct]() <br>
 > > [hashMap Struct]() <br>
 > </details>
-> <details><summary>Functions</summary>
+> <details open><summary>Functions</summary>
 >
 > > [hashMap_new]() <br>
 > > [hashMap_free]() <br>
