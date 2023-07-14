@@ -36,8 +36,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair Structure (hashmap.h)</b></summary>
 
-<br>
-<h2>keyValuePair Structure (hashmap.h)</h2>
+<h1>keyValuePair Structure (hashmap.h)</b>>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -84,7 +83,6 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap Structure (hashmap.h)</b></summary>
 
-<br>
 <h2>hashMap Structure (hashmap.h)</h2>
 <b>In this section</b><br>
 
@@ -132,7 +130,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_new function (hashmap.h)</b></summary>
 
-<br>
+<h2>hashMap_new function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -178,7 +176,7 @@ Newly created hashMap* object.
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_free function (hashmap.h)</b></summary>
 
-<br>
+<h2>hashMap_free function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -219,7 +217,6 @@ None
 **[hashMap]()** <br>
 **[hashMap_new]()** <br>
 
-
 ---
 
 </details>
@@ -227,7 +224,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_set function (hashmap.h)</b></summary>
 
-<br>
+<h2>hashMap_set function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -267,7 +264,6 @@ None
 **[hashMap_lookup]()** <br>
 **[hashMap_lookup_size]()** <br>
 
-
 ---
 
 </details>
@@ -275,7 +271,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_remove function (hashmap.h)</b></summary>
 
-<br>
+<h2>hashMap_remove function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -313,7 +309,6 @@ None
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
 **[hashMap_lookup]()** <br>
-
 **[hashMap_lookup_size]()** <br>
 
 ---
@@ -323,7 +318,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_lookup function (hashmap.h)</b></summary>
 
-<br>
+<h2>hashMap_lookup function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -360,7 +355,6 @@ None
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
-
 **[hashMap_lookup]()** <br>
 **[hashMap_lookup_size]()** <br>
 
@@ -371,7 +365,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_loopup_size function (hashmap.h)</b></summary>
 
-<br>
+<h2>hashMap_loopup_size function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -407,7 +401,6 @@ None
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
-
 **[hashMap_remove]()** <br>
 **[hashMap_lookup]()** <br>
 **[hashMap_lookup_size]()** <br>
@@ -419,7 +412,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_extend function (hashmap.h)</b></summary>
 
-<br>
+<h2>hashMap_extend function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -454,7 +447,6 @@ None
 **[hashMap]()** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
-
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
 **[hashMap_lookup]()** <br>
@@ -467,7 +459,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair_new function (hashmap.h)</b></summary>
 
-<br>
+<h2>keyValuePair_new function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -501,12 +493,10 @@ None
 ### See also
 **[hashMap]()** <br>
 **[hashMap_new]()** <br>
-
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
 **[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
 
 ---
 
@@ -515,7 +505,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair_free function (hashmap.h)</b></summary>
 
-<br>
+<h2>keyValuePair_free function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -553,7 +543,6 @@ None
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
 **[hashMap_lookup_size]()** <br>
 
 ---
@@ -563,7 +552,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keuValuePair_set_value function (hashmap.h)</b></summary>
 
-<br>
+<h2>keuValuePair_set_value function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -600,7 +589,6 @@ None
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
 **[hashMap_lookup]()** <br>
 **[hashMap_lookup_size]()** <br>
 
@@ -611,7 +599,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair_set_key function (hashmap.h)</b></summary>
 
-<br>
+<h2>keyValuePair_set_key function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -647,7 +635,6 @@ None
 **[hashMap]()** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
 **[hashMap_lookup]()** <br>
 **[hashMap_lookup_size]()** <br>
@@ -659,7 +646,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair_get_value function (hashmap.h)</b></summary>
 
-<br>
+<h2>keyValuePair_get_value function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -694,7 +681,6 @@ None
 ### See also
 **[hashMap]()** <br>
 **[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
 **[hashMap_lookup]()** <br>
@@ -707,7 +693,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair_get_key function (hashmap.h)</b></summary>
 
-<br>
+<h2>keyValuePair_get_key function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
