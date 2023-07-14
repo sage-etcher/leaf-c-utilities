@@ -43,7 +43,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > [Requirements](#requirements) <br>
 > [See also](#see-also) <br>
 
-An Object made to hold two generic values of any size and thier appropriate sizing information.
+<sup>An Object made to hold two generic values of any size and thier appropriate sizing information.</sup>
 
 ### Syntax
 C code
@@ -109,7 +109,7 @@ Holds the size of `value_ptr`, allowing us to *safely* read and write to value_p
 > [Requirements](#requirements-1) <br>
 > [See also](#see-also-1) <br>
 
-the main object used for hashMaps in this module. Holds a dynamicly allocated list of keyValuePairs, the allocated length of that list, and the actual count of items in the list.
+<sup>the main object used for hashMaps in this module. Holds a dynamicly allocated list of keyValuePairs, the allocated length of that list, and the actual count of items in the list.</sup>
 
 ### Syntax
 C code
@@ -170,7 +170,7 @@ The current number of items actually being held in `list`<br>
 > [Requirements](#requirements-2) <br>
 > [See also](#see-also-2) <br>
 
-Creates a hashMap* object.
+<sup>Creates a hashMap* object.</sup>
 
 ### Syntax
 C code
@@ -216,7 +216,7 @@ Newly created hashMap* object.
 > [Requirements](#requirements-3) <br>
 > [See also](#see-also-3) <br>
 
-Frees the allocated memory stored in a hashMap* object.
+<sup>Frees the allocated memory stored in a hashMap* object.</sup>
 
 ### Syntax
 C code
@@ -264,7 +264,7 @@ None
 > [Requirements](#requirements-4) <br>
 > [See also](#see-also-4) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -317,7 +317,7 @@ None
 > [Requirements](#requirements-5) <br>
 > [See also](#see-also-5) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -368,7 +368,7 @@ None
 > [Requirements](#requirements-6) <br>
 > [See also](#see-also-6) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -420,7 +420,7 @@ None
 > [Requirements](#requirements-7) <br>
 > [See also](#see-also-7) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -472,7 +472,7 @@ None
 > [Requirements](#requirements-8) <br>
 > [See also](#see-also-8) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -521,7 +521,7 @@ None
 > [Requirements](#requirements-9) <br>
 > [See also](#see-also-9) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -572,7 +572,7 @@ None
 > [Requirements](#requirements-10) <br>
 > [See also](#see-also-10) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -620,7 +620,7 @@ None
 > [Requirements](#requirements-11) <br>
 > [See also](#see-also-11) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -670,7 +670,7 @@ None
 > [Requirements](#requirements-12) <br>
 > [See also](#see-also-12) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -721,7 +721,7 @@ None
 > [Requirements](#requirements-13) <br>
 > [See also](#see-also-13) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
@@ -771,7 +771,7 @@ None
 > [Requirements](#requirements-14) <br>
 > [See also](#see-also-14) <br>
 
-None
+<sup>None</sup>
 
 ### Syntax
 C code
