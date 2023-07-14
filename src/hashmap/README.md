@@ -59,7 +59,7 @@ typedef struct
 
 ### Items
 `key_ptr` <br>
-Type: **void/\***<br>
+Type: **void\***<br>
 A generic pointer to a peice of memory of unknown size, can hold an object of any type or size. Made to be used as the "key" of a hashmap/dictioray item. <br>
 <br>
 
