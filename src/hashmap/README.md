@@ -39,7 +39,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 <h1>keyValuePair Structure (hashmap.h)</h1>
 <b>In this section</b><br>
 
-> [Syntax](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#syntax)
+> [Syntax](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#syntax) <br>
 > [Parameters](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#parameters) <br>
 > [Return value](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#return-value)<br>
 > [Requirements](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#requirements) <br>
