@@ -1,9 +1,3 @@
-<style>
-	.margin-zero {
-		margin:0;
-	}
-</style>
-
 # Leaf C Utilities (hashMap)
 This module implements a simple Generic (void * based) hashMap typedef and functions. All interactions with the hashMap type is recomended to be done through the provided functions.
 
