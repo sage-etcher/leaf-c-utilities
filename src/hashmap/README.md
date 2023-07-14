@@ -43,7 +43,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > [Requirements](#requirements) <br>
 > [See also](#see-also) <br>
 
-None
+An Object made to hold two generic values of any size and thier appropriate sizing information.
 
 ### Syntax
 C code
@@ -58,7 +58,25 @@ typedef struct
 ```
 
 ### Items
-None
+`key_ptr` <br>
+Type: **void/\***<br>
+A generic pointer to a peice of memory of unknown size, can hold an object of any type or size. Made to be used as the "key" of a hashmap/dictioray item. <br>
+<br>
+
+`key_size` <br>
+Type: **size_t**<br>
+Holds the size of `key_ptr`, allowing us to *safely* read and write to key_ptr, no matter what kind of data is stored in it. <br>
+<br>
+
+`value_ptr` <br>
+Type: **void\***<br>
+A generic pointer to a peice of memory of unknown size, can hold an object of any type or size. Made to be used as the "value" of a hashmap/dictionary item. <br>
+<br>
+
+`value_ptr` <br>
+Type: **size_t**<br>
+Holds the size of `value_ptr`, allowing us to *safely* read and write to value_ptr, no matter what kind of data is stored in it. <br>
+<br>
 
 ### Requirements
 | | |
@@ -69,13 +87,12 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_set-function-hashmap)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmap)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmap)** <br>
+**[keyValuePair_new](#keyvaluepair_new-function-hashmaph)**<br>
+**[keyValuePair_free](#keyvaluepair_free-function-hashmaph)**<br>
+**[keyValuePair_set_value](#keyvaluepair_set_value-function-hashmaph)**<br>
+**[keyValuePair_set_key](#keyvaluepair_set_key-function-hashmaph)**<br>
+**[keyValuePair_get_value](#keyvaluepair_get_value-function-hashmaph)**<br>
+**[keyValuePair_get_key](#keyvaluepair_get_key-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -115,13 +132,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -160,12 +177,12 @@ Newly created hashMap* object.
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -194,7 +211,7 @@ void hashMap_free(
 ### Parameters
 `self`
 
-Type: **hashMap***
+Type: **hashMap\***
 
 Pointer to a hashMap that was created using [hashMap_new]().
 
@@ -210,8 +227,8 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -256,13 +273,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -305,13 +322,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -355,13 +372,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -405,13 +422,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -452,13 +469,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -502,12 +519,12 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -548,12 +565,12 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -596,12 +613,12 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -645,12 +662,12 @@ None
 
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -693,12 +710,12 @@ None
 
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -740,13 +757,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
-**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)**<br>
+**[hashMap_new](#hashmap_new-function-hashmaph)**<br>
+**[hashMap_free](#hashmap_free-function-hashmaph)**<br>
+**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
