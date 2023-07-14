@@ -76,8 +76,6 @@ None
 **[hashMap_remove](#hashmap_set-function-hashmap)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmap)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmap)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -127,8 +125,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -177,8 +173,6 @@ Newly created hashMap* object.
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -229,8 +223,6 @@ None
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new](#hashmap_new-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -280,8 +272,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -331,8 +321,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -382,8 +370,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -433,8 +419,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -484,8 +468,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -534,8 +516,6 @@ None
 **[hashMap_set](#hashmap_set-function-hashmaph)** <br>
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -584,8 +564,6 @@ None
 **[hashMap_set](#hashmap_set-function-hashmaph)** <br>
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -634,8 +612,6 @@ None
 **[hashMap_set](#hashmap_set-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -685,8 +661,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -736,8 +710,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
@@ -787,8 +759,6 @@ None
 **[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
-<br>
-
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
