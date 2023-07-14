@@ -34,7 +34,8 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## keyValuePair Structure (hashmap.h)
+<details><summary><h2>keyValuePair Structure (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -76,7 +77,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap Structure (hashmap.h)
+</details>
+<details><summary><h2>hashMap Structure (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -118,7 +121,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap_new function (hashmap.h)
+</details>
+<details><summary><h2>hashMap_new function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -159,7 +164,9 @@ Newly created hashMap* object.
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap_free function (hashmap.h)
+</details>
+<details><summary><h2>hashMap_free function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -202,7 +209,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap_set function (hashmap.h)
+</details>
+<details><summary><h2>hashMap_set function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -244,7 +253,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap_remove function (hashmap.h)
+</details>
+<details><summary><h2>hashMap_remove function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -286,7 +297,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap_lookup function (hashmap.h)
+</details>
+<details><summary><h2>hashMap_lookup function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -328,7 +341,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap_loopup_size function (hashmap.h)
+</details>
+<details><summary><h2>hashMap_loopup_size function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -370,7 +385,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## hashMap_extend function (hashmap.h)
+</details>
+<details><summary><h2>hashMap_extend function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -412,7 +429,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## keyValuePair_new function (hashmap.h)
+</details>
+<details><summary><h2>keyValuePair_new function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -454,7 +473,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## keyValuePair_free function (hashmap.h)
+</details>
+<details><summary><h2>keyValuePair_free function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -496,7 +517,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## keuValuePair_set_value function (hashmap.h)
+</details>
+<details><summary><h2>keuValuePair_set_value function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -538,7 +561,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## keyValuePair_set_key function (hashmap.h)
+</details>
+<details><summary><h2>keyValuePair_set_key function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -580,7 +605,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## keyValuePair_get_value function (hashmap.h)
+</details>
+<details><summary><h2>keyValuePair_get_value function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -622,7 +649,9 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## keyValuePair_get_key function (hashmap.h)
+</details>
+<details><summary><h2>keyValuePair_get_key function (hashmap.h)</h2></summary>
+
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -661,8 +690,7 @@ None
 **[hashMap_lookup]()** <br>
 **[hashMap_lookup_size]()** <br>
 
----
-
+</details>
 
 # OLD
 <br>
