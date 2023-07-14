@@ -13,7 +13,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 >
 > > [keyValuePair Struct]() <br>
 > > [hashMap Struct]() <br>
-> </details> <br>
+> </details>
 > <details><summary>Functions</summary>
 >
 > > [hashMap_new]() <br>
@@ -30,7 +30,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > > [keyValuePair_get_value]() <br>
 > > [keyValuePair_get_key]() <br>
 > > 
-> </details> <br>
+> </details>
 
 ---
 
