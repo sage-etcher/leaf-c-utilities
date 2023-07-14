@@ -10,24 +10,24 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 # hashMap Documentation
 > <details open><summary>Structures</summary>
 >
-> > [keyValuePair Struct]() <br>
+> > [keyValuePair Struct](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyValuePair-structure-hashmaph) <br>
 > > [hashMap Struct](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph) <br>
 > </details>
 > <details open><summary>Functions</summary>
 >
-> > [hashMap_new]() <br>
-> > [hashMap_free]() <br>
-> > [hashMap_set]() <br>
-> > [hashMap_remove]() <br>
-> > [hashMap_lookup]() <br>
-> > [hashMap_lookup_size]() <br>
-> > [hashMap_extend]() <br>
-> > [keyValuePair_new]() <br>
-> > [keyValuePair_free]() <br>
-> > [keyValuePair_set_value]() <br>
-> > [keyValuePair_set_key]() <br>
-> > [keyValuePair_get_value]() <br>
-> > [keyValuePair_get_key]() <br>
+> > [hashMap_new](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_new-function-hashmaph) <br>
+> > [hashMap_free](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_free-function-hashmaph) <br>
+> > [hashMap_set](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_set-function-hashmaph) <br>
+> > [hashMap_remove](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_remove-function-hashmaph) <br>
+> > [hashMap_lookup](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_lookup-function-hashmaph) <br>
+> > [hashMap_lookup_size](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_lookup_size-function-hashmaph) <br>
+> > [hashMap_extend](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_extend-function-hashmaph) <br>
+> > [keyValuePair_new](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyValuePair_new-function-hashmaph) <br>
+> > [keyValuePair_free](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyValuePair_free-functions-hashmaph) <br>
+> > [keyValuePair_set_value](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_set_value-function-hashmaph) <br>
+> > [keyValuePair_set_key](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_set_key-function-hashmaph) <br>
+> > [keyValuePair_get_value](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_get_value-function-hashmaph) <br>
+> > [keyValuePair_get_key](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_get_key-function-hashmaph) <br>
 > > 
 > </details>
 
