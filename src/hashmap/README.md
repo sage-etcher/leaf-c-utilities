@@ -43,7 +43,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > [Syntax](#syntax) <br>
 > [Items](#items) <br>
 > [Requirements](#requirements) <br>
-> [See also](#see-also-) <br>
+> [See also](#see-also) <br>
 
 None
 
