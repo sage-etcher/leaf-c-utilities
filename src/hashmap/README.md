@@ -44,6 +44,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -90,6 +91,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -136,6 +138,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -181,6 +184,7 @@ Newly created hashMap* object.
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -229,6 +233,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -276,6 +281,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -323,6 +329,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -370,6 +377,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -417,6 +425,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -464,6 +473,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -511,6 +521,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -558,6 +569,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -605,6 +617,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -652,6 +665,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -699,6 +713,7 @@ None
 
 <br>
 <b>In this section</b><br>
+
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
