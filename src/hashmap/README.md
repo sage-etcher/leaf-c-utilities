@@ -12,6 +12,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 >
 > > [keyValuePair Struct](#keyvaluepair-structure-hashmaph) <br>
 > > [hashMap Struct](#hashmap-structure-hashmaph) <br>
+> >
 > </details>
 > <details open><summary>Functions</summary>
 >
@@ -39,11 +40,11 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 <h2>keyValuePair Structure (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#syntax) <br>
-> [Parameters](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#parameters) <br>
-> [Return value](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#return-value)<br>
-> [Requirements](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#requirements) <br>
-> [See also](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#see-also) <br>
+> [Syntax](#syntax) <br>
+> [Parameters](#parameters) <br>
+> [Return value](#return-value)<br>
+> [Requirements](#requirements) <br>
+> [See also](#see-also) <br>
 
 None
 
@@ -68,13 +69,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_set-function-hashmap)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmap)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmap)** <br>
 
 ---
 
@@ -86,11 +87,11 @@ None
 <h2>hashMap Structure (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-1) <br>
+> [Parameters](#parameters-1) <br>
+> [Return value](#return-value-1)<br>
+> [Requirements](#requirements-1) <br>
+> [See also](#see-also-1) <br>
 
 None
 
@@ -115,7 +116,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -133,11 +134,11 @@ None
 <h2>hashMap_new function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-2) <br>
+> [Parameters](#parameters-2) <br>
+> [Return value](#return-value-2)<br>
+> [Requirements](#requirements-2) <br>
+> [See also](#see-also-2) <br>
 
 Creates a hashMap* object.
 
@@ -162,7 +163,7 @@ Newly created hashMap* object.
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
@@ -214,7 +215,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 
 ---
@@ -256,7 +257,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -303,7 +304,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -350,7 +351,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -397,7 +398,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -444,7 +445,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -491,7 +492,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -537,7 +538,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -583,7 +584,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
@@ -630,7 +631,7 @@ None
 
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_remove]()** <br>
@@ -677,7 +678,7 @@ None
 
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_set]()** <br>
 **[hashMap_remove]()** <br>
@@ -723,7 +724,7 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph)** <br>
+**[hashMap](#hashmap-structure-hashmaph)** <br>
 **[hashMap_new]()** <br>
 **[hashMap_free]()** <br>
 **[hashMap_set]()** <br>
