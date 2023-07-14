@@ -9,6 +9,31 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 ---
 # hashMap Documentation
 
+> <details><summary>Structures</summary>
+>
+> > [keyValuePair Struct]() <br>
+> > [hashMap Struct]() <br>
+> </details> <br>
+> <details><summary>Functions</summary>
+>
+> > [hashMap_new]() <br>
+> > [hashMap_free]() <br>
+> > [hashMap_set]() <br>
+> > [hashMap_remove]() <br>
+> > [hashMap_lookup]() <br>
+> > [hashMap_lookup_index]() <br>
+> > [hashMap_extend]() <br>
+> > [keyValuePair_new]() <br>
+> > [keyValuePair_free]() <br>
+> > [keyValuePair_set_value]() <br>
+> > [keyValuePair_set_key]() <br>
+> > [keyValuePair_get_value]() <br>
+> > [keyValuePair_get_key]() <br>
+> > 
+> </details> <br>
+
+---
+
 [//]: <> (Win32API inspired Documentation)
 ## hashMap_new function (hashmap.h)
 **In this section**
