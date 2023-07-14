@@ -7,10 +7,10 @@ How to add this module to a new C/C++ project.
 First, you must copy `src/hashmap/hashmap.*` files into your program's path. Then, add `#include "hashmap.h"` in your source files. Finaly make sure that you have `hashmap.h` in the INCLUDE path, and `hashmap.c` must be compiled (and linked with) with the rest of the program sources.
 
 ---
-## hashMap Documentation
+# hashMap Documentation
 
 [//]: <> (Win32API inspired Documentation)
-### hashMap_new function (hashmap.h)
+## hashMap_new function (hashmap.h)
 **In this section**
 > [Syntax]()
 
@@ -24,19 +24,19 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 
 Creates a hashMap* object.
 
-#### Syntax
+### Syntax
 C code
 ```
 hashMap* hashMap_new(void);
 ```
 
-#### Parameters
+### Parameters
 None
 
-#### Return value
+### Return value
 Newly created hashMap* object.
 
-#### Requirements
+### Requirements
 | | |
 |:--- |:--- |
 | **Minimum supported C ver.** | C89 standard |
@@ -44,7 +44,7 @@ Newly created hashMap* object.
 | **Header** | hashmap.h |
 | **Source File** | hashmap.c |
 
-#### See also
+### See also
 **[hashMap]()**
 
 **[hashMap_free]()**
@@ -61,7 +61,7 @@ Newly created hashMap* object.
 
 
 [//]: <> (Win32API inspired Documentation)
-### hashMap_free function (hashmap.h)
+## hashMap_free function (hashmap.h)
 **In this section**
 > [Syntax]()
 
@@ -75,7 +75,7 @@ Newly created hashMap* object.
 
 Frees the allocated memory stored in a hashMap* object.
 
-#### Syntax
+### Syntax
 C code
 ```
 void hashMap_free(
@@ -83,17 +83,17 @@ void hashMap_free(
 );
 ```
 
-#### Parameters
+### Parameters
 `self`
 
 Type: **hashMap***
 
 Pointer to a hashMap that was created using [hashMap_new]().
 
-#### Return value
+### Return value
 None
 
-#### Requirements
+### Requirements
 | | |
 |:--- |:--- |
 | **Minimum supported C ver.** | C89 standard |
@@ -101,7 +101,7 @@ None
 | **Header** | hashmap.h |
 | **Source File** | hashmap.c |
 
-#### See also
+### See also
 **[hashMap]()**
 
 **[hashMap_new]()**
@@ -109,7 +109,7 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-### None (hashmap.h)
+## None (hashmap.h)
 **In this section**
 > [Syntax]()
 
@@ -123,19 +123,19 @@ None
 
 None
 
-#### Syntax
+### Syntax
 C code
 ```
 
 ```
 
-#### Parameters
+### Parameters
 None
 
-#### Return value
+### Return value
 None
 
-#### Requirements
+### Requirements
 | | |
 |:--- |:--- |
 | **Minimum supported C ver.** | C89 standard |
@@ -143,7 +143,7 @@ None
 | **Header** | hashmap.h |
 | **Source File** | hashmap.c |
 
-#### See also
+### See also
 **[hashMap]()**
 
 **[hashMap_new]()**
