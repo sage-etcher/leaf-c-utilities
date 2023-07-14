@@ -36,7 +36,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair Structure (hashmap.h)</b></summary>
 
-<h1>keyValuePair Structure (hashmap.h)</b>>
+<h1>keyValuePair Structure (hashmap.h)</h1>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
