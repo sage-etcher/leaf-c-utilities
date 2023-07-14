@@ -232,7 +232,13 @@ None
 ### Syntax
 C code
 ```
-
+void hashMap_set(
+	hashMap* self,
+	void*    key_ptr,
+	size_t   key_size,
+	void*    value_ptr,
+	size_t   value_size
+);
 ```
 
 ### Parameters
@@ -277,7 +283,11 @@ None
 ### Syntax
 C code
 ```
-
+void hashMap_remove(
+	hashMap* self,
+	void*    key_ptr,
+	size_t   key_size
+);
 ```
 
 ### Parameters
@@ -322,7 +332,12 @@ None
 ### Syntax
 C code
 ```
-
+int hashMap_lookup(
+	hashMap* self,
+	void*    key_ptr,
+	size_t   key_size,
+	void*    value_ret_ptr
+);
 ```
 
 ### Parameters
@@ -367,7 +382,12 @@ None
 ### Syntax
 C code
 ```
-
+void hashMap_lookup_size(
+	hashMap* self,
+	void*    key_ptr,
+	size_t   key_size,
+	size_t*  value_size_ret_ptr
+);
 ```
 
 ### Parameters
@@ -412,7 +432,9 @@ None
 ### Syntax
 C code
 ```
-
+void hashMap_extend(
+	hashMap* self
+);
 ```
 
 ### Parameters
@@ -457,7 +479,12 @@ None
 ### Syntax
 C code
 ```
-
+keyValuePair* keyValuePair_new(
+	void*  key_ptr,
+	size_t key_size,
+	void*  value_ptr,
+	size_t value_ptr
+);
 ```
 
 ### Parameters
@@ -501,7 +528,9 @@ None
 ### Syntax
 C code
 ```
-
+void keyValuePair_free(
+	keyValuePair* self
+);
 ```
 
 ### Parameters
@@ -545,7 +574,11 @@ None
 ### Syntax
 C code
 ```
-
+void keyValuePair_set_value(
+	keyValuePair* self,
+	void*         new_value,
+	size_t        new_value_size
+);
 ```
 
 ### Parameters
@@ -589,7 +622,11 @@ None
 ### Syntax
 C code
 ```
-
+void keyValuePair_set_key(
+	keyValuePair* self,
+	void*         new_key,
+	size_t        new_key_size
+);
 ```
 
 ### Parameters
@@ -634,7 +671,10 @@ None
 ### Syntax
 C code
 ```
-
+void keyValuePair_get_value(
+	keyValuePair* self,
+	void*         value_ret_ptr
+);
 ```
 
 ### Parameters
@@ -679,7 +719,10 @@ None
 ### Syntax
 C code
 ```
-
+void keyValuePair_get_key(
+	keyValuePair* self,
+	void*         key_ret_ptr
+);
 ```
 
 ### Parameters
