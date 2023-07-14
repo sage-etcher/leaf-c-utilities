@@ -32,7 +32,6 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > > 
 > </details>
 
-<br>
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -98,6 +97,7 @@ Holds the size of `value_ptr`, allowing us to *safely* read and write to value_p
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -145,6 +145,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -190,6 +191,7 @@ Newly created hashMap* object.
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -237,6 +239,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -289,6 +292,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -339,6 +343,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -390,6 +395,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -441,6 +447,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -489,6 +496,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -539,6 +547,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -586,6 +595,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -635,6 +645,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -685,6 +696,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -734,6 +746,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 [//]: <> (Win32API inspired Documentation)
@@ -783,6 +796,7 @@ None
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
 
 <br>
+
 ---
 
 <br>
