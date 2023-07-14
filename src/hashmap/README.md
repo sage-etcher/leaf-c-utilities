@@ -1,6 +1,7 @@
 <style>
 	.margin-zero {
 		margin:0;
+		color: red;
 	}
 </style>
 
