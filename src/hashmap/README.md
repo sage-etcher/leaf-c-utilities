@@ -1,5 +1,5 @@
 <style>
-	h2 {
+	.margin-zero {
 		margin:0;
 	}
 </style>
@@ -40,7 +40,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 ---
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>keyValuePair Structure (hashmap.h)</h2></summary>
+<details class="margin-zero"><summary><h2 class="margin-zero">keyValuePair Structure (hashmap.h)</h2></summary>
 
 **In this section**
 > [Syntax]() <br>
@@ -85,7 +85,7 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap Structure (hashmap.h)</h2></summary>
+<details class="margin-zero"><summary><h2 class="margin-zero">hashMap Structure (hashmap.h)</h2></summary>
 
 **In this section**
 > [Syntax]() <br>
