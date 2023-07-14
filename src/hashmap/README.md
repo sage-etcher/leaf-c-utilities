@@ -365,7 +365,7 @@ None
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>hashMap_lookup_size function (hashmap.h)</b></summary>
 
-<h2>hashMap_loopup_size function (hashmap.h)</h2>
+<h2>hashMap_lookup_size function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
