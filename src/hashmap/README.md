@@ -13,9 +13,13 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 ### hashMap_new function (hashmap.h)
 **In this section**
 > [Syntax]()
+
 > [Parameters]()
+
 > [Return value]()
+
 > [Requirements]()
+
 > [See also]()
 
 Creates a hashMap* object.
@@ -42,10 +46,15 @@ Newly created hashMap* object.
 
 #### See also
 **[hashMap]()**
+
 **[hashMap_free]()**
+
 **[hashMap_set]()**
+
 **[hashMap_remove]()**
+
 **[hashMap_lookup]()**
+
 **[hashMap_lookup_size]()**
 
 ---
@@ -55,9 +64,13 @@ Newly created hashMap* object.
 ### hashMap_free function (hashmap.h)
 **In this section**
 > [Syntax]()
+
 > [Parameters]()
+
 > [Return value]()
+
 > [Requirements]()
+
 > [See also]()
 
 Frees the allocated memory stored in a hashMap* object.
@@ -90,6 +103,7 @@ None
 
 #### See also
 **[hashMap]()**
+
 **[hashMap_new]()**
 
 ---
@@ -98,9 +112,13 @@ None
 ### None (hashmap.h)
 **In this section**
 > [Syntax]()
+
 > [Parameters]()
+
 > [Return value]()
+
 > [Requirements]()
+
 > [See also]()
 
 None
@@ -127,11 +145,17 @@ None
 
 #### See also
 **[hashMap]()**
+
 **[hashMap_new]()**
+
 **[hashMap_free]()**
+
 **[hashMap_set]()**
+
 **[hashMap_remove]()**
+
 **[hashMap_lookup]()**
+
 **[hashMap_lookup_size]()**
 
 ---
