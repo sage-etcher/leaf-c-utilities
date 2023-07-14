@@ -1,9 +1,6 @@
 <style>
-	details {
-		margin-bottom:0;
-	}
-	details > summary > h2 {
-		margin-top:0;
+	h2 {
+		margin:0;
 	}
 </style>
 
