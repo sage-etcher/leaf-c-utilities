@@ -46,8 +46,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 <sup>An Object made to hold two generic values of any size and thier appropriate sizing information.</sup>
 
 ### Syntax
-C code
-```
+```C
 typedef struct 
 {
 	void*  key_ptr;
@@ -112,8 +111,7 @@ Holds the size of `value_ptr`, allowing us to *safely* read and write to value_p
 <sup>the main object used for hashMaps in this module. Holds a dynamicly allocated list of keyValuePairs, the allocated length of that list, and the actual count of items in the list.</sup>
 
 ### Syntax
-C code
-```
+```C
 typedef struct 
 {
 	keyValuePair** list;
@@ -173,8 +171,7 @@ The current number of items actually being held in `list`<br>
 <sup>Creates a hashMap* object.</sup>
 
 ### Syntax
-C code
-```
+```C
 hashMap* hashMap_new(void);
 ```
 
@@ -219,8 +216,7 @@ Newly created hashMap* object.
 <sup>Frees the allocated memory stored in a hashMap* object.</sup>
 
 ### Syntax
-C code
-```
+```C
 void hashMap_free(
 	hashMap* self
 );
@@ -267,8 +263,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void hashMap_set(
 	hashMap* self,
 	void*    key_ptr,
@@ -320,8 +315,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void hashMap_remove(
 	hashMap* self,
 	void*    key_ptr,
@@ -371,8 +365,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 int hashMap_lookup(
 	hashMap* self,
 	void*    key_ptr,
@@ -423,8 +416,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void hashMap_lookup_size(
 	hashMap* self,
 	void*    key_ptr,
@@ -475,8 +467,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void hashMap_extend(
 	hashMap* self
 );
@@ -524,8 +515,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 keyValuePair* keyValuePair_new(
 	void*  key_ptr,
 	size_t key_size,
@@ -575,8 +565,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void keyValuePair_free(
 	keyValuePair* self
 );
@@ -623,8 +612,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void keyValuePair_set_value(
 	keyValuePair* self,
 	void*         new_value,
@@ -673,8 +661,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void keyValuePair_set_key(
 	keyValuePair* self,
 	void*         new_key,
@@ -724,8 +711,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void keyValuePair_get_value(
 	keyValuePair* self,
 	void*         value_ret_ptr
@@ -774,8 +760,7 @@ None
 <sup>None</sup>
 
 ### Syntax
-C code
-```
+```C
 void keyValuePair_get_key(
 	keyValuePair* self,
 	void*         key_ret_ptr
