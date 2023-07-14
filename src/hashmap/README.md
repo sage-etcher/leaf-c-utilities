@@ -1,7 +1,6 @@
 <style>
 	.margin-zero {
 		margin:0;
-		color: red;
 	}
 </style>
 
@@ -41,9 +40,10 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 ---
 
 [//]: <> (Win32API inspired Documentation)
-<details class="margin-zero"><summary><h2 class="margin-zero">keyValuePair Structure (hashmap.h)</h2></summary>
+<details><summary><b>keyValuePair Structure (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -86,9 +86,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details class="margin-zero"><summary><h2 class="margin-zero">hashMap Structure (hashmap.h)</h2></summary>
+<details><summary><b>hashMap Structure (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -131,9 +132,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap_new function (hashmap.h)</h2></summary>
+<details><summary><b>hashMap_new function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -175,9 +177,10 @@ Newly created hashMap* object.
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap_free function (hashmap.h)</h2></summary>
+<details><summary><b>hashMap_free function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -222,9 +225,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap_set function (hashmap.h)</h2></summary>
+<details><summary><b>hashMap_set function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -268,9 +272,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap_remove function (hashmap.h)</h2></summary>
+<details><summary><b>hashMap_remove function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -314,9 +319,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap_lookup function (hashmap.h)</h2></summary>
+<details><summary><b>hashMap_lookup function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -360,9 +366,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap_loopup_size function (hashmap.h)</h2></summary>
+<details><summary><b>hashMap_loopup_size function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -406,9 +413,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>hashMap_extend function (hashmap.h)</h2></summary>
+<details><summary><b>hashMap_extend function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -452,9 +460,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>keyValuePair_new function (hashmap.h)</h2></summary>
+<details><summary><b>keyValuePair_new function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -498,9 +507,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>keyValuePair_free function (hashmap.h)</h2></summary>
+<details><summary><b>keyValuePair_free function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -544,9 +554,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>keuValuePair_set_value function (hashmap.h)</h2></summary>
+<details><summary><b>keuValuePair_set_value function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -590,9 +601,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>keyValuePair_set_key function (hashmap.h)</h2></summary>
+<details><summary><b>keyValuePair_set_key function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -636,9 +648,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>keyValuePair_get_value function (hashmap.h)</h2></summary>
+<details><summary><b>keyValuePair_get_value function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
@@ -682,9 +695,10 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><h2>keyValuePair_get_key function (hashmap.h)</h2></summary>
+<details><summary><b>keyValuePair_get_key function (hashmap.h)</b></summary>
 
-**In this section**
+<br>
+<b>In this section</b><br>
 > [Syntax]() <br>
 > [Parameters]() <br>
 > [Return value]() <br>
