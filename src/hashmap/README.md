@@ -10,24 +10,24 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 # hashMap Documentation
 > <details open><summary>Structures</summary>
 >
-> > [keyValuePair Struct](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyValuePair-structure-hashmaph) <br>
-> > [hashMap Struct](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashmap-structure-hashmaph) <br>
+> > [keyValuePair Struct](#keyvaluepair-structure-hashmaph) <br>
+> > [hashMap Struct](#hashmap-structure-hashmaph) <br>
 > </details>
 > <details open><summary>Functions</summary>
 >
-> > [hashMap_new](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_new-function-hashmaph) <br>
-> > [hashMap_free](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_free-function-hashmaph) <br>
-> > [hashMap_set](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_set-function-hashmaph) <br>
-> > [hashMap_remove](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_remove-function-hashmaph) <br>
-> > [hashMap_lookup](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_lookup-function-hashmaph) <br>
-> > [hashMap_lookup_size](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_lookup_size-function-hashmaph) <br>
-> > [hashMap_extend](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#hashMap_extend-function-hashmaph) <br>
-> > [keyValuePair_new](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyValuePair_new-function-hashmaph) <br>
-> > [keyValuePair_free](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyValuePair_free-functions-hashmaph) <br>
-> > [keyValuePair_set_value](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_set_value-function-hashmaph) <br>
-> > [keyValuePair_set_key](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_set_key-function-hashmaph) <br>
-> > [keyValuePair_get_value](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_get_value-function-hashmaph) <br>
-> > [keyValuePair_get_key](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#keyvaluepair_get_key-function-hashmaph) <br>
+> > [hashMap_new](#hashmap_new-function-hashmaph) <br>
+> > [hashMap_free](#hashmap_free-function-hashmaph) <br>
+> > [hashMap_set](#hashmap_set-function-hashmaph) <br>
+> > [hashMap_remove](#hashmap_remove-function-hashmaph) <br>
+> > [hashMap_lookup](#hashmap_lookup-function-hashmaph) <br>
+> > [hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph) <br>
+> > [hashMap_extend](#hashmap_extend-function-hashmaph) <br>
+> > [keyValuePair_new](#keyvaluepair_new-function-hashmaph) <br>
+> > [keyValuePair_free](#keyvaluepair_free-function-hashmaph) <br>
+> > [keyValuePair_set_value](#keyvaluepair_set_value-function-hashmaph) <br>
+> > [keyValuePair_set_key](#keyvaluepair_set_key-function-hashmaph) <br>
+> > [keyValuePair_get_value](#keyvaluepair_get_value-function-hashmaph) <br>
+> > [keyValuePair_get_key](#keyvaluepair_get_key-function-hashmaph) <br>
 > > 
 > </details>
 
@@ -36,7 +36,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 [//]: <> (Win32API inspired Documentation)
 <details><summary><b>keyValuePair Structure (hashmap.h)</b></summary>
 
-<h1>keyValuePair Structure (hashmap.h)</h1>
+<h2>keyValuePair Structure (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax](https://github.com/sage-etcher/leaf-c-utilities/tree/add-hashmap/src/hashmap#syntax) <br>
@@ -549,9 +549,9 @@ None
 </details>
 
 [//]: <> (Win32API inspired Documentation)
-<details><summary><b>keuValuePair_set_value function (hashmap.h)</b></summary>
+<details><summary><b>keyValuePair_set_value function (hashmap.h)</b></summary>
 
-<h2>keuValuePair_set_value function (hashmap.h)</h2>
+<h2>keyValuePair_set_value function (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
