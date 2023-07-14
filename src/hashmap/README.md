@@ -41,8 +41,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 <b>In this section</b><br>
 
 > [Syntax](#syntax) <br>
-> [Parameters](#parameters) <br>
-> [Return value](#return-value)<br>
+> [Items](#items) <br>
 > [Requirements](#requirements) <br>
 > [See also](#see-also-) <br>
 
@@ -51,13 +50,16 @@ None
 ### Syntax
 C code
 ```
-
+typedef struct 
+{
+	void*  key_ptr;
+	size_t key_size;
+	void*  value_ptr;
+	size_t value_ptr;
+} keyValuePair;
 ```
 
-### Parameters
-None
-
-### Return value
+### Items
 None
 
 ### Requirements
@@ -90,8 +92,7 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-1) <br>
-> [Parameters](#parameters-1) <br>
-> [Return value](#return-value-1)<br>
+> [Items](#itmes-1) <br>
 > [Requirements](#requirements-1) <br>
 > [See also](#see-also-1) <br>
 
@@ -100,13 +101,15 @@ None
 ### Syntax
 C code
 ```
-
+typedef struct 
+{
+	keyValuePair* list;
+	int           count;
+	int           alloc_len;
+} hashMap;
 ```
 
-### Parameters
-None
-
-### Return value
+### Items 
 None
 
 ### Requirements
@@ -139,8 +142,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-2) <br>
-> [Parameters](#parameters-2) <br>
-> [Return value](#return-value-2)<br>
+> [Parameters](#parameters) <br>
+> [Return value](#return-value)<br>
 > [Requirements](#requirements-2) <br>
 > [See also](#see-also-2) <br>
 
@@ -187,8 +190,8 @@ Newly created hashMap* object.
 <b>In this section</b><br>
 
 > [Syntax](#syntax-3) <br>
-> [Parameters](#parameters-3) <br>
-> [Return value](#return-value-3)<br>
+> [Parameters](#parameters-1) <br>
+> [Return value](#return-value-1)<br>
 > [Requirements](#requirements-3) <br>
 > [See also](#see-also-3) <br>
 
@@ -237,8 +240,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-4) <br>
-> [Parameters](#parameters-4) <br>
-> [Return value](#return-value-4) <br>
+> [Parameters](#parameters-2) <br>
+> [Return value](#return-value-2) <br>
 > [Requirements](#requirements-4) <br>
 > [See also](#see-also-4) <br>
 
@@ -286,8 +289,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-5) <br>
-> [Parameters](#parameters-5) <br>
-> [Return value](#return-value-5) <br>
+> [Parameters](#parameters-3) <br>
+> [Return value](#return-value-3) <br>
 > [Requirements](#requirements-5) <br>
 > [See also](#see-also-5) <br>
 
@@ -335,8 +338,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-6) <br>
-> [Parameters](#parameters-6) <br>
-> [Return value](#return-value-6) <br>
+> [Parameters](#parameters-4) <br>
+> [Return value](#return-value-4) <br>
 > [Requirements](#requirements-6) <br>
 > [See also](#see-also-6) <br>
 
@@ -384,8 +387,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-7) <br>
-> [Parameters](#parameters-7) <br>
-> [Return value](#return-value-7) <br>
+> [Parameters](#parameters-5) <br>
+> [Return value](#return-value-5) <br>
 > [Requirements](#requirements-7) <br>
 > [See also](#see-also-7) <br>
 
@@ -433,8 +436,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-8) <br>
-> [Parameters](#parameters-8) <br>
-> [Return value](#return-value-8) <br>
+> [Parameters](#parameters-6) <br>
+> [Return value](#return-value-6) <br>
 > [Requirements](#requirements-8) <br>
 > [See also](#see-also-8) <br>
 
@@ -482,8 +485,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-9) <br>
-> [Parameters](#parameters-9) <br>
-> [Return value](#return-value-9) <br>
+> [Parameters](#parameters-7) <br>
+> [Return value](#return-value-7) <br>
 > [Requirements](#requirements-9) <br>
 > [See also](#see-also-9) <br>
 
@@ -530,8 +533,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-10) <br>
-> [Parameters](#parameters-10) <br>
-> [Return value](#return-value-10) <br>
+> [Parameters](#parameters-8) <br>
+> [Return value](#return-value-8) <br>
 > [Requirements](#requirements-10) <br>
 > [See also](#see-also-10) <br>
 
@@ -578,8 +581,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-11) <br>
-> [Parameters](#parameters-11) <br>
-> [Return value](#return-value-11) <br>
+> [Parameters](#parameters-9) <br>
+> [Return value](#return-value-9) <br>
 > [Requirements](#requirements-11) <br>
 > [See also](#see-also-11) <br>
 
@@ -626,8 +629,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-12) <br>
-> [Parameters](#parameters-12) <br>
-> [Return value](#return-value-12) <br>
+> [Parameters](#parameters-10) <br>
+> [Return value](#return-value-10) <br>
 > [Requirements](#requirements-12) <br>
 > [See also](#see-also-12) <br>
 
@@ -675,8 +678,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-13) <br>
-> [Parameters](#parameters-13) <br>
-> [Return value](#return-value-13) <br>
+> [Parameters](#parameters-11) <br>
+> [Return value](#return-value-11) <br>
 > [Requirements](#requirements-13) <br>
 > [See also](#see-also-13) <br>
 
@@ -724,8 +727,8 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-14) <br>
-> [Parameters](#parameters-14) <br>
-> [Return value](#return-value-14) <br>
+> [Parameters](#parameters-12) <br>
+> [Return value](#return-value-12) <br>
 > [Requirements](#requirements-14) <br>
 > [See also](#see-also-14) <br>
 
