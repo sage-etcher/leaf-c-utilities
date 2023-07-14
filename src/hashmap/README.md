@@ -37,6 +37,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 <details><summary><b>keyValuePair Structure (hashmap.h)</b></summary>
 
 <br>
+<h2>keyValuePair Structure (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
@@ -84,6 +85,7 @@ None
 <details><summary><b>hashMap Structure (hashmap.h)</b></summary>
 
 <br>
+<h2>hashMap Structure (hashmap.h)</h2>
 <b>In this section</b><br>
 
 > [Syntax]() <br>
