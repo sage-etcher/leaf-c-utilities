@@ -8,7 +8,6 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 
 ---
 # hashMap Documentation
-
 > <details open><summary>Structures</summary>
 >
 > > [keyValuePair Struct]() <br>
@@ -21,7 +20,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > > [hashMap_set]() <br>
 > > [hashMap_remove]() <br>
 > > [hashMap_lookup]() <br>
-> > [hashMap_lookup_index]() <br>
+> > [hashMap_lookup_size]() <br>
 > > [hashMap_extend]() <br>
 > > [keyValuePair_new]() <br>
 > > [keyValuePair_free]() <br>
@@ -31,6 +30,90 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > > [keyValuePair_get_key]() <br>
 > > 
 > </details>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## keyValuePair Structure (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## hashMap Structure (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
 
 ---
 
@@ -74,7 +157,6 @@ Newly created hashMap* object.
 **[hashMap_lookup_size]()** <br>
 
 ---
-
 
 [//]: <> (Win32API inspired Documentation)
 ## hashMap_free function (hashmap.h)
@@ -120,7 +202,7 @@ None
 ---
 
 [//]: <> (Win32API inspired Documentation)
-## None (hashmap.h)
+## hashMap_set function (hashmap.h)
 **In this section**
 > [Syntax]() <br>
 > [Parameters]() <br>
@@ -161,6 +243,428 @@ None
 
 ---
 
+[//]: <> (Win32API inspired Documentation)
+## hashMap_remove function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## hashMap_lookup function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## hashMap_loopup_size function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## hashMap_extend function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## keyValuePair_new function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## keyValuePair_free function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## keuValuePair_set_value function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## keyValuePair_set_key function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## keyValuePair_get_value function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+## keyValuePair_get_key function (hashmap.h)
+**In this section**
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
+
+None
+
+### Syntax
+C code
+```
+
+```
+
+### Parameters
+None
+
+### Return value
+None
+
+### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+### See also
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
+
+---
+
+
+# OLD
 <br>
 <br>
 <br>
