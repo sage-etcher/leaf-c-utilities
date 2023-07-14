@@ -92,7 +92,7 @@ None
 <b>In this section</b><br>
 
 > [Syntax](#syntax-1) <br>
-> [Items](#itmes-1) <br>
+> [Items](#items-1) <br>
 > [Requirements](#requirements-1) <br>
 > [See also](#see-also-1) <br>
 
