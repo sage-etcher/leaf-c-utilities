@@ -44,7 +44,7 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 > [Parameters](#parameters) <br>
 > [Return value](#return-value)<br>
 > [Requirements](#requirements) <br>
-> [See also](#see-also) <br>
+> [See also](#see-also-) <br>
 
 None
 
@@ -117,12 +117,12 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -164,11 +164,11 @@ Newly created hashMap* object.
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -180,11 +180,11 @@ Newly created hashMap* object.
 <h2>hashMap_free function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-3) <br>
+> [Parameters](#parameters-3) <br>
+> [Return value](#return-value-3)<br>
+> [Requirements](#requirements-3) <br>
+> [See also](#see-also-3) <br>
 
 Frees the allocated memory stored in a hashMap* object.
 
@@ -216,7 +216,7 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
 
 ---
 
@@ -228,11 +228,11 @@ None
 <h2>hashMap_set function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-4) <br>
+> [Parameters](#parameters-4) <br>
+> [Return value](#return-value-4) <br>
+> [Requirements](#requirements-4) <br>
+> [See also](#see-also-4) <br>
 
 None
 
@@ -258,12 +258,12 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -275,11 +275,11 @@ None
 <h2>hashMap_remove function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-5) <br>
+> [Parameters](#parameters-5) <br>
+> [Return value](#return-value-5) <br>
+> [Requirements](#requirements-5) <br>
+> [See also](#see-also-5) <br>
 
 None
 
@@ -305,12 +305,12 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -322,11 +322,11 @@ None
 <h2>hashMap_lookup function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-6) <br>
+> [Parameters](#parameters-6) <br>
+> [Return value](#return-value-6) <br>
+> [Requirements](#requirements-6) <br>
+> [See also](#see-also-6) <br>
 
 None
 
@@ -352,12 +352,12 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -369,11 +369,11 @@ None
 <h2>hashMap_lookup_size function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-7) <br>
+> [Parameters](#parameters-7) <br>
+> [Return value](#return-value-7) <br>
+> [Requirements](#requirements-7) <br>
+> [See also](#see-also-7) <br>
 
 None
 
@@ -399,12 +399,12 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -416,11 +416,11 @@ None
 <h2>hashMap_extend function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-8) <br>
+> [Parameters](#parameters-8) <br>
+> [Return value](#return-value-8) <br>
+> [Requirements](#requirements-8) <br>
+> [See also](#see-also-8) <br>
 
 None
 
@@ -446,12 +446,12 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -463,11 +463,11 @@ None
 <h2>keyValuePair_new function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-9) <br>
+> [Parameters](#parameters-9) <br>
+> [Return value](#return-value-9) <br>
+> [Requirements](#requirements-9) <br>
+> [See also](#see-also-9) <br>
 
 None
 
@@ -493,11 +493,11 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
 
 ---
 
@@ -509,11 +509,11 @@ None
 <h2>keyValuePair_free function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-10) <br>
+> [Parameters](#parameters-10) <br>
+> [Return value](#return-value-10) <br>
+> [Requirements](#requirements-10) <br>
+> [See also](#see-also-10) <br>
 
 None
 
@@ -539,11 +539,11 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -555,11 +555,11 @@ None
 <h2>keyValuePair_set_value function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-11) <br>
+> [Parameters](#parameters-11) <br>
+> [Return value](#return-value-11) <br>
+> [Requirements](#requirements-11) <br>
+> [See also](#see-also-11) <br>
 
 None
 
@@ -585,11 +585,11 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -601,11 +601,11 @@ None
 <h2>keyValuePair_set_key function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-12) <br>
+> [Parameters](#parameters-12) <br>
+> [Return value](#return-value-12) <br>
+> [Requirements](#requirements-12) <br>
+> [See also](#see-also-12) <br>
 
 None
 
@@ -632,11 +632,11 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -648,11 +648,11 @@ None
 <h2>keyValuePair_get_value function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-13) <br>
+> [Parameters](#parameters-13) <br>
+> [Return value](#return-value-13) <br>
+> [Requirements](#requirements-13) <br>
+> [See also](#see-also-13) <br>
 
 None
 
@@ -679,11 +679,11 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 ---
 
@@ -695,11 +695,11 @@ None
 <h2>keyValuePair_get_key function (hashmap.h)</h2>
 <b>In this section</b><br>
 
-> [Syntax]() <br>
-> [Parameters]() <br>
-> [Return value]() <br>
-> [Requirements]() <br>
-> [See also]() <br>
+> [Syntax](#syntax-14) <br>
+> [Parameters](#parameters-14) <br>
+> [Return value](#return-value-14) <br>
+> [Requirements](#requirements-14) <br>
+> [See also](#see-also-14) <br>
 
 None
 
@@ -725,12 +725,12 @@ None
 
 ### See also
 **[hashMap](#hashmap-structure-hashmaph)** <br>
-**[hashMap_new]()** <br>
-**[hashMap_free]()** <br>
-**[hashMap_set]()** <br>
-**[hashMap_remove]()** <br>
-**[hashMap_lookup]()** <br>
-**[hashMap_lookup_size]()** <br>
+**[hashMap_new](#hashmap_new-function-hashmaph)** <br>
+**[hashMap_free](#hashmap_free-function-hashmaph)** <br>
+**[hashMap_set](#hashmap_set-function-hashmaph)** <br>
+**[hashMap_remove](#hashmap_remove-function-hashmaph)** <br>
+**[hashMap_lookup](#hashmap_lookup-function-hashmaph)** <br>
+**[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)** <br>
 
 </details>
 
