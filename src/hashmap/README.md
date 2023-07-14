@@ -12,15 +12,11 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 [//]: <> (Win32API inspired Documentation)
 ## hashMap_new function (hashmap.h)
 **In this section**
-> [Syntax]()
-
-> [Parameters]()
-
-> [Return value]()
-
-> [Requirements]()
-
-> [See also]()
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
 
 Creates a hashMap* object.
 
@@ -45,17 +41,12 @@ Newly created hashMap* object.
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap]()**
-
-**[hashMap_free]()**
-
-**[hashMap_set]()**
-
-**[hashMap_remove]()**
-
-**[hashMap_lookup]()**
-
-**[hashMap_lookup_size]()**
+**[hashMap]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
 
 ---
 
@@ -63,15 +54,11 @@ Newly created hashMap* object.
 [//]: <> (Win32API inspired Documentation)
 ## hashMap_free function (hashmap.h)
 **In this section**
-> [Syntax]()
-
-> [Parameters]()
-
-> [Return value]()
-
-> [Requirements]()
-
-> [See also]()
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
 
 Frees the allocated memory stored in a hashMap* object.
 
@@ -102,24 +89,19 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap]()**
-
-**[hashMap_new]()**
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
 
 ---
 
 [//]: <> (Win32API inspired Documentation)
 ## None (hashmap.h)
 **In this section**
-> [Syntax]()
-
-> [Parameters]()
-
-> [Return value]()
-
-> [Requirements]()
-
-> [See also]()
+> [Syntax]() <br>
+> [Parameters]() <br>
+> [Return value]() <br>
+> [Requirements]() <br>
+> [See also]() <br>
 
 None
 
@@ -144,19 +126,13 @@ None
 | **Source File** | hashmap.c |
 
 ### See also
-**[hashMap]()**
-
-**[hashMap_new]()**
-
-**[hashMap_free]()**
-
-**[hashMap_set]()**
-
-**[hashMap_remove]()**
-
-**[hashMap_lookup]()**
-
-**[hashMap_lookup_size]()**
+**[hashMap]()** <br>
+**[hashMap_new]()** <br>
+**[hashMap_free]()** <br>
+**[hashMap_set]()** <br>
+**[hashMap_remove]()** <br>
+**[hashMap_lookup]()** <br>
+**[hashMap_lookup_size]()** <br>
 
 ---
 
