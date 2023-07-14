@@ -8,9 +8,144 @@ First, you must copy `src/hashmap/hashmap.*` files into your program's path. The
 
 ---
 ## hashMap Documentation
-A quick description of how to use the module, datatypes, and functions
 
-<details open>
+[//]: <> (Win32API inspired Documentation)
+### hashMap_new function (hashmap.h)
+**In this section**
+> [Syntax]()
+> [Parameters]()
+> [Return value]()
+> [Requirements]()
+> [See also]()
+
+Creates a hashMap* object.
+
+#### Syntax
+C code
+```
+hashMap* hashMap_new(void);
+```
+
+#### Parameters
+None
+
+#### Return value
+Newly created hashMap* object.
+
+#### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+#### See also
+**[hashMap]()**
+**[hashMap_free]()**
+**[hashMap_set]()**
+**[hashMap_remove]()**
+**[hashMap_lookup]()**
+**[hashMap_lookup_size]()**
+
+---
+
+
+[//]: <> (Win32API inspired Documentation)
+### hashMap_free function (hashmap.h)
+**In this section**
+> [Syntax]()
+> [Parameters]()
+> [Return value]()
+> [Requirements]()
+> [See also]()
+
+Frees the allocated memory stored in a hashMap* object.
+
+#### Syntax
+C code
+```
+void hashMap_free(
+	hashMap* self
+);
+```
+
+#### Parameters
+`self`
+
+Type: **hashMap***
+
+Pointer to a hashMap that was created using [hashMap_new]().
+
+#### Return value
+None
+
+#### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+#### See also
+**[hashMap]()**
+**[hashMap_new]()**
+
+---
+
+[//]: <> (Win32API inspired Documentation)
+### None (hashmap.h)
+**In this section**
+> [Syntax]()
+> [Parameters]()
+> [Return value]()
+> [Requirements]()
+> [See also]()
+
+None
+
+#### Syntax
+C code
+```
+
+```
+
+#### Parameters
+None
+
+#### Return value
+None
+
+#### Requirements
+| | |
+|:--- |:--- |
+| **Minimum supported C ver.** | C89 standard |
+| **Target Platform** | Any |
+| **Header** | hashmap.h |
+| **Source File** | hashmap.c |
+
+#### See also
+**[hashMap]()**
+**[hashMap_new]()**
+**[hashMap_free]()**
+**[hashMap_set]()**
+**[hashMap_remove]()**
+**[hashMap_lookup]()**
+**[hashMap_lookup_size]()**
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+This section contains information about the programming elements used with 
+
+<details>
 <summary> <b> typedef _keyValuePair </b> </summary>
 
 > keyValuePair element
@@ -25,7 +160,7 @@ A quick description of how to use the module, datatypes, and functions
 > ```
 </details>
 
-<details open>
+<details>
 <summary> <b> typedef hashMap </b> </summary>
 
 > hashMap element 
@@ -39,7 +174,7 @@ A quick description of how to use the module, datatypes, and functions
 > ```
 </details>
 
-<details open>
+<details>
 <summary> <b> hashMap_new </b> </summary>
 
 > Creates a new hashMap Object, used as an initializer for the datatype. 
@@ -50,7 +185,7 @@ A quick description of how to use the module, datatypes, and functions
 > `hashMap_new()` allocates a new hashMap and returns a hashMap pointer, this hashMap must be freed useing the `hashMap_free()` function.
 </details>
 
-<details open>
+<details>
 <summary> <b> hashMap_free </b> </summary>
 
 > Destroys hashMap Objects, used as a destructor for the datatype.
@@ -60,7 +195,7 @@ A quick description of how to use the module, datatypes, and functions
 > `hashMap_free()` deallocates/frees all memory allocated in the hashMap Element. This function must be run after you are done using the hashMap element. For instructions on how to create a new hashMap please refer to `hashMap_new()`.
 </details>
 
-<details open>
+<details>
 <summary> <b> hashMap_set </b> </summary>
 
 > desctiprion
@@ -69,7 +204,7 @@ A quick description of how to use the module, datatypes, and functions
 > ```
 </details>
 
-<details open>
+<details>
 <summary> <b> hashMap_remove </b> </summary>
 
 > desc
@@ -79,7 +214,7 @@ A quick description of how to use the module, datatypes, and functions
 </details>
 
 
-<details open>
+<details>
 <summary> <b> hashMap_lookup</b> </summary>
 
 > desc
@@ -89,7 +224,7 @@ A quick description of how to use the module, datatypes, and functions
 </details>
 
 
-<details open>
+<details>
 <summary> <b> hashMap_lookup_size</b> </summary>
 
 > desc
