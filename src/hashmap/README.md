@@ -276,7 +276,7 @@ void hashMap_set(
 ### Parameters
 `self`<br>
 Type: **hashMap\*** <br>
-A pointer to the hashMap you would like to operate on.
+Pointer to the hashMap you would like to operate on. <br>
 <br>
 
 `key_ptr`<br>
@@ -332,7 +332,7 @@ None
 > [Requirements](#requirements-5) <br>
 > [See also](#see-also-5) <br>
 
-<sup>None</sup>
+<sup>Given a hashMap and key, will attempt to remove (and free) the associated keyValuePair inside a hashMap's list</sup>
 
 ### Syntax
 ```C
@@ -344,7 +344,20 @@ void hashMap_remove(
 ```
 
 ### Parameters
-None
+`self` <br>
+Types: **hashMap\*** <br>
+Pointer to the hashMap you would like to operate on. <br>
+<br>
+
+`key_ptr` <br>
+Types: **void\*** <br>
+The location of/pointer to a set of data, that is a 1 to 1 match with the key. memcmps the data at this location with that of each key in the hashMap. <br>
+<br>
+
+`key_size` <br>
+Types: **size_t** <br>
+The maximum number of bytes to compare past key_ptr <br>
+<br>
 
 ### Return value
 None
