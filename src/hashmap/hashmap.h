@@ -36,27 +36,37 @@ extern "C" {
 
 /* high-level data type declarations */
 /* key value pair */
-struct _keyValuePair 
+typedef struct
 {
-	void   *_key;
-	size_t  _key_size;
+	void   *key;
+	size_t  key_size;
 	
-	void   *_value;
-	size_t  _value_size;
-};
-typedef struct _keyValuePair _keyValuePair;
+	void   *value;
+	size_t  value_size;
+} keyValuePair;
 
 /* hashmap */
-struct _hashMap 
+typedef struct 
 {
-	_keyValuePair **_list;
-	int    _count;
-	int    _alloc_len;
-};
-typedef struct _hashMap hashMap;
+	keyValuePair **list;
+	int    count;
+	int    alloc_len;
+} hashMap;
 
 
 /* prototypes */
+
+/* keyValuePair based */
+/* constructor & destructor */
+keyValuePair * keyValuePair_new  (void *key, size_t key_size, void *value, size_t value_size);
+void           keyValuePair_free (keyValuePair *s);
+/*operations */
+void keyValuePair_get_key        (keyValuePair *s, void *key_return);
+void keyValuePair_get_value      (keyValuePair *s, void *value_return);
+void keyValuePair_set_key        (keyValuePair *s, void *new_key,   size_t new_size);
+void keyValuePair_set_value      (keyValuePair *s, void *new_value, size_t new_size);
+
+/* hashMap based */
 /* constructor & destructor */
 hashMap * hashMap_new  (void);
 void      hashMap_free (hashMap *s); 
@@ -65,6 +75,7 @@ void hashMap_set         (hashMap *s, void *key, size_t key_size, void *value, s
 void hashMap_remove      (hashMap *s, void *key, size_t key_size);
 int  hashMap_lookup      (hashMap *s, void *key, size_t key_size, void *value_return);
 int  hashMap_lookup_size (hashMap *s, void *key, size_t key_size, size_t *size_return);
+void hashMap_extend      (hashMap *s);
 
 
 /* C++ support */
