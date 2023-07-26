@@ -513,7 +513,7 @@ None
 > [Requirements](#requirements-8) <br>
 > [See also](#see-also-8) <br>
 
-<sup>None</sup>
+<sup>extends the number of items that can be held inside a hashMap. This function is automatically called by hashMap_set when more memory is needed inside hashMap.list. As such, the user/programmer has little need for access to this function when using the hashMap object as recomended. This function is indended to double the previous allocated size, if the previous size was 8 elements, after this function it will be able to hold up to 16 elements.</sup>
 
 ### Syntax
 ```C
@@ -523,7 +523,11 @@ void hashMap_extend(
 ```
 
 ### Parameters
-None
+`self` <br>
+Types: **hashMap\*** <br>
+Pointer to the hashMap you would like to operate on. <br>
+<br>
+
 
 ### Return value
 None
