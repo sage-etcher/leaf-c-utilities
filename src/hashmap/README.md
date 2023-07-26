@@ -311,7 +311,6 @@ None
 **[hashMap](#hashmap-structure-hashmaph)**<br>
 **[hashMap_new](#hashmap_new-function-hashmaph)**<br>
 **[hashMap_free](#hashmap_free-function-hashmaph)**<br>
-**[hashMap_set](#hashmap_set-function-hashmaph)**<br>
 **[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
@@ -332,7 +331,7 @@ None
 > [Requirements](#requirements-5) <br>
 > [See also](#see-also-5) <br>
 
-<sup>Given a hashMap and key, will attempt to remove (and free) the associated keyValuePair inside a hashMap's list</sup>
+
 
 ### Syntax
 ```C
@@ -375,7 +374,6 @@ None
 **[hashMap_new](#hashmap_new-function-hashmaph)**<br>
 **[hashMap_free](#hashmap_free-function-hashmaph)**<br>
 **[hashMap_set](#hashmap_set-function-hashmaph)**<br>
-**[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
 **[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
@@ -395,7 +393,7 @@ None
 > [Requirements](#requirements-6) <br>
 > [See also](#see-also-6) <br>
 
-<sup>None</sup>
+<sup>Given a hashMap, Key, and return address/pointer, this function will search through the given hashMap for the supplied key. On finding a match, it will copy the Value into the return address. However, please note that this function does NOT allocate the given pointer first, rather, it opts for a raw memcpy. If the return address needs allocation to hold the value, this is to be done BEFORE calling this function, by the user/programmer. If no match for the given key is found the return value will be -1, signifying a failure. Otherwise, if a match is found, a 0 will be returned</sup>
 
 ### Syntax
 ```C
@@ -408,10 +406,29 @@ int hashMap_lookup(
 ```
 
 ### Parameters
-None
+`self` <br>
+Types: **hashMap\*** <br>
+Pointer to the hashMap you would like to operate on. <br>
+<br>
+
+`key_ptr` <br>
+Types: **void\*** <br>
+The location of/pointer to a set of data, that is a 1 to 1 match with the key. memcmps the data at this location with that of each key in the hashMap. <br>
+<br>
+
+`key_size` <br>
+Types: **size_t** <br>
+The maximum number of bytes to compare past key_ptr <br>
+<br>
+
+`value_ret_ptr` <br>
+Types: **void\*** <br>
+Pointer to store the Value associated with the given Key. Please note that this function does NOT allocate any memory to the pointer, allocation and freeing of memory is on the user.<br>
+<br>
+
 
 ### Return value
-None
+If no match is found return `-1`, this signifies a failure. If a match is found, the Value of the given keyValuePair will be copied into the provided return address arguement, and, the function will return a `0`, signifying a success.
 
 ### Requirements
 | | |
@@ -427,7 +444,6 @@ None
 **[hashMap_free](#hashmap_free-function-hashmaph)**<br>
 **[hashMap_set](#hashmap_set-function-hashmaph)**<br>
 **[hashMap_remove](#hashmap_remove-function-hashmaph)**<br>
-**[hashMap_lookup](#hashmap_lookup-function-hashmaph)**<br>
 **[hashMap_lookup_size](#hashmap_lookup_size-function-hashmaph)**<br>
 **[[back to index]](#hashmap-documentation)**<br>
 **[[back to top]](#leaf-c-utilities-hashmap)**<br>
