@@ -260,7 +260,7 @@ None
 > [Requirements](#requirements-4) <br>
 > [See also](#see-also-4) <br>
 
-<sup>None</sup>
+<sup>Sets a pre-defined value to be present at a similarly pre-defined key, inside of a hashMap object. If the pair already exists, this function overwrites the old value with the new. Otherwise, if the key is not found, creates a new pair. Please note that this must use predefined data, and as such does NOT work with constants. </sup>
 
 ### Syntax
 ```C
@@ -274,7 +274,27 @@ void hashMap_set(
 ```
 
 ### Parameters
-None
+`self`<br>
+Type: **hashMap\*** <br>
+A pointer to the hashMap you would like to operate on.
+<br>
+
+`key_ptr`<br>
+Type: **void\*** <br>
+The location of/pointer to the key's source data. memcopies the key from the data at this location. <br>
+
+`key_size`<br>
+Type: **size_t** <br>
+Defines how many bytes of data are to be memcopied from key_ptr. <br>
+
+`value_ptr`<br>
+Type: **void\*** <br>
+The location of/pointer to the value's source data. memcopies the value from the data at this location. <br>
+
+`value_size`<br>
+Type: **size_t** <br>
+Defines how many bytes of data are to be memcopied from value_ptr. <br>
+
 
 ### Return value
 None
