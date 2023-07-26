@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# except for these thing
+
+# project files
+!**.html
+!**.css
+!**.js
+!**.ts
+
+# images
+!**.jpeg
+!**.jpg
+!**.tiff
+!**.png
+!**.bmp
+!**.gif
+
+# github files
+!.gitignore
+!/.git/**
+!**.md
