@@ -18,6 +18,10 @@
 		position: sticky;
 		top: 0;
 	}
+
+	#quick-access-container {
+		margin-right: 5%;
+	}
 }
 
 
