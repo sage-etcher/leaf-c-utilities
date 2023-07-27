@@ -1,0 +1,55 @@
+/* a collection of more specified styles */
+
+/* title has indent when not centered */
+/* title is centered on small screens only */
+/* materialize sets smallscreens (mobile) as <= 600px */
+@media only screen and (min-width: 601px) {
+	#page-title {
+		margin-left: 25px;
+	}
+}
+
+
+/* quick access styling */
+/* quick access is only shown on medium or larger screens */
+/* materialize sets mediumscreens (tablet) as >= 601px */
+@media only screen and (min-width: 601px) {
+	#quick-access-wrapper {
+		position: sticky;
+		top: 0;
+	}
+}
+
+
+/* additional resources styling */
+/* additional resources is only shown on large screens */
+/* materialize sets largescreens (desktop) as >= 993px */
+@media only screen and (min-width: 993px) {
+	#additional-resources-wrapper {
+		position: sticky;
+		top: 0;
+	}
+
+	/* main title for the section */
+	.additional-resources-title {
+		font-size: 18px;
+		padding: 25px 0px;
+
+		border-bottom: 1px solid lightgrey;
+	}
+	
+	/* subtitle for the section */
+	.additional-resources-subtitle {
+		font-size: 16px;
+	}
+
+	/* items */
+	.additional-resources-item {
+		padding: 10px 0px;
+	}
+
+	.additional-resources-item > * {
+		font-size: 14px;
+		margin: 0;
+	}
+}

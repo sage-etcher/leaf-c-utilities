@@ -1,0 +1,36 @@
+.no-bullet {
+	list-style-type: none;
+}
+
+.small-indent {
+	padding-left: 10px;
+}
+
+.medium-indent {
+	padding-left: 25px;
+}
+
+.left-border {
+	border-left: 1px solid lightgrey;
+}
+
+.inline {
+	display: inline;
+}
+
+/* material icons */
+.filter {
+	position:relative;
+	display:inline-block;
+}
+.filter-ico:after {
+	content: "filter_alt";
+}
+
+.openbook-ico {
+	position:relative;
+	display:inline-block;
+}
+.openbook-ico:after {
+	content: "menu_book";
+}
