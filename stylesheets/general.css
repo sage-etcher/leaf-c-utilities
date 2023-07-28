@@ -47,9 +47,6 @@
 		padding: 0.5em 0;	
 		color: black;
 	}
-	#search-content-display > li > a:hover {
-		text-decoration-line: underline;
-	}
 }
 
 
@@ -114,7 +111,6 @@ footer * {
 
 footer > ul > li > a:hover {
 	color: dimgrey;
-	text-decoration-line: underline;
 }
 
 
@@ -128,4 +124,13 @@ footer > ul > li > a:hover {
 
 main {
 	min-height: 100vh;
+}
+
+
+a:hover {
+	text-decoration-line: underline;
+}
+
+#page-title:hover {
+	text-decoration-line: none;
 }
