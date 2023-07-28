@@ -5,12 +5,15 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compativle" content="ie=edge">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
 		<!-- page title -->
-		<title></title>
+		<title>NaN</title>
 		<!-- local machine -->
-		<!-- <base href="file:///H:/source/projects/leaf-c-utilities/"> -->
+		<!-- <base href="file:./source/projects/leaf-c-utilities/"> -->
 		<!-- deployment -->
-		<base href="https://sage-etcher.github.io/leaf-c-utilities/">
+		<!-- <base href="https://sage-etcher.github.io/leaf-c-utilities/"> -->
 		<!-- include materialize stylesheet -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 		<!-- include material fonts -->
@@ -21,38 +24,59 @@
 	</head>
 	<body>
 
+		<header>
+			<!-- navbar start -->
+			<nav>
+				<div class="nav-wrapper">
+					<a href="./index.html" class="brand-logo" id="page-title">Leaf Utilities</a>
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="#!">Getting Started</a></li>
+						<li><a href="#!">Documentation</a></li>
+						<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
+					</ul>
+				</div>
+			</nav>
 
-		<!-- navbar start -->
-		<nav>
-			<div class="nav-wrapper">
-				<a href="./index.html" class="brand-logo" id="page-title">Leaf Utilities</a>
-				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-				<ul class="right hide-on-med-and-down">
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="#!">Getting Started</a></li>
-					<li><a href="#!">Documentation</a></li>
-					<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		<!-- mobile nav dropdown -->
-		<ul class="sidenav" id="mobile-demo">
-			<li><a href="./index.html">Home</a></li>
-			<li><a href="#!">Getting Started</a></li>
-			<li><a href="#!">Documentation</a></li>
-			<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
-		</ul>
+			<!-- mobile nav dropdown -->
+			<ul class="sidenav" id="mobile-demo">
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./index.html#getting-started">Getting Started</a></li>
+				<li><a href="./index.html#documentation">Documentation</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
+			</ul>
+		</header>
 		<!-- navbar end -->
 
+		<!-- content wrapper start -->
+		<main id="page-wrapper">
+		
+		</main> <!-- content wrapper end -->
 
+		<footer class="blue-grey lighten-4">
+			<ul class="horizontal-list inline-block left">
+				<li><a href="./index.html" class="not-quite-bold">Leaf Utilities</a></li>
+				<li><a href="#!" class="not-quite-bold">Buy me a Koffee</a></li>
+			</ul>
+
+			<ul class="horizontal-list inline-block right">
+				<li><a href="#top">Back to the top</a></li>
+				<li><a href="./index.html">Home Page</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Poject Github</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities/tree/doc-pages">Site Github</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities/blob/doc-pages/LICENSE">Licensing</a></li>
+				<li>&copy; Sage I. Hendricks 2023</li>
+			</ul>
+		</footer>
 
 
 	    <!-- Materialize JS include -->
-   	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0./materialize.min.js"></script>
 		<!-- Jquery include -->
 		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 		<!-- include javascript -->
-		<script src="./scripts/nav-bar.js"></script>	
+		<script src="./scripts/nav-bar.js" async></script>	
+		<!-- <script src="./scripts/search-bar.js" async></script> -->
 	</body>
 </html>

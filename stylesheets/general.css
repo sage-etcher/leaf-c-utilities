@@ -114,3 +114,6 @@ footer > ul > li > a:hover {
 	margin: 25px 0;
 }
 
+main {
+	min-height: 100vh;
+}
