@@ -13,42 +13,44 @@
 		<!-- local machine -->
 		<!-- <base href="file:///H:/source/projects/leaf-c-utilities/"> -->
 		<!-- deployment -->
-		<base href="https://sage-etcher.github.io/leaf-c-utilities/">
+		<!-- <base href="https://sage-etcher.github.io/leaf-c-utilities/"> -->
 		<!-- include materialize stylesheet -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 		<!-- include material fonts -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!-- include local stylesheets -->
-		<link href="./stylesheets/atomic.css" rel="stylesheet">
-		<link href="./stylesheets/general.css" rel="stylesheet">
+		<link href="../../stylesheets/atomic.css" rel="stylesheet">
+		<link href="../../stylesheets/general.css" rel="stylesheet">
 	</head>
 	<body>
 
-		<!-- navbar start -->
-		<nav>
-			<div class="nav-wrapper">
-				<a href="./index.html" class="brand-logo" id="page-title">Leaf Utilities</a>
-				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-				<ul class="right hide-on-med-and-down">
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="#!">Getting Started</a></li>
-					<li><a href="#!">Documentation</a></li>
-					<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
-				</ul>
-			</div>
-		</nav>
+		<header>
+			<!-- navbar start -->
+			<nav>
+				<div class="nav-wrapper">
+					<a href="./index.html" class="brand-logo" id="page-title">Leaf Utilities</a>
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="#!">Getting Started</a></li>
+						<li><a href="#!">Documentation</a></li>
+						<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
+					</ul>
+				</div>
+			</nav>
 
-		<!-- mobile nav dropdown -->
-		<ul class="sidenav" id="mobile-demo">
-			<li><a href="./index.html">Home</a></li>
-			<li><a href="#!">Getting Started</a></li>
-			<li><a href="#!">Documentation</a></li>
-			<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
-		</ul>
+			<!-- mobile nav dropdown -->
+			<ul class="sidenav" id="mobile-demo">
+				<li><a href="../../index.html">Home</a></li>
+				<li><a href="../../index.html#getting-started">Getting Started</a></li>
+				<li><a href="../../index.html#documentation">Documentation</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Github</a></li>
+			</ul>
+		</header>
 		<!-- navbar end -->
 
 		<!-- content wrapper start -->
-		<div id="page-wrapper">
+		<main id="page-wrapper">
 			<!-- content grid start -->	
 			<div class="row">
 
@@ -56,11 +58,18 @@
 				<div class="col m4 l3 hide-on-small-only" id="quick-access-wrapper">
 					<div id="quick-access-container">
 						<!-- search box start -->
-						<div class="input-field">
+						<div class="input-field" id="quick-access-search-wrapper">
 			
 							<span class="material-icons filter-ico prefix"></span>
 							<input placeholder="Filter by title" id="quick-access-search" type="text">
 						</div> <!-- search box end -->
+
+						<div class="scrollable">
+							<ul id="search-content-display">
+							</ul>
+						</div>
+
+
 					</div>	
 				</div> <!-- quick access end -->
 
@@ -76,19 +85,20 @@
 
 					<!-- Title -->
 					<h3 id="page-main-title">hashmap.h header</h3>
-					<p class="grey-text text-darken-1">Article &#x2022; 07/27/2023</p>
-				
+					<p class="grey-text text-darken-1">Article &#x2022; 07/28/2023</p>
+			
 					<h6><b>In this article</b></h6>
 					<ul class="no-bullet small-indent left-border">
-						<li class="small-indent"><a href="#!">Functions</a></li>
-						<li class="small-indent"><a href="#!">Structures</a></li>
+						<li class="small-indent"><a href="#function-header">Functions</a></li>
+						<li class="small-indent"><a href="#structure-header">Structures</a></li>
                         <!-- this file dont got neither these vvv -->
 						<!--<li class="small-indent"><a href="#!">Enumerations</a></li>
                         <li class="small-indent"><a href="#!">Constants</a></li>-->
 					</ul>
 
 					<p>hashmap.h contains the following programming interfaces:</p>
-					
+				
+					<a name="function-header"></a>
 					<h4>Functions</h4>
 					<table>
 						<thead>
@@ -148,7 +158,8 @@
 							</tr>
 						</tbody>
                     </table>
-                    
+                   
+					<a name="structure-header"></a>
                     <h4>Structures</h4>
                     <table>
                         <thead>
@@ -228,23 +239,23 @@
 					</div>
 				</div> <!-- additional resources end -->
 			</div> <!-- main content grid end -->	
-		</div> <!-- content wrapper end -->
+		</main> <!-- content wrapper end -->
 
-		<div class="footer blue-grey lighten-4">
+		<footer class="blue-grey lighten-4">
 			<ul class="horizontal-list inline-block left">
-				<li><a href="#!" class="not-quite-bold">Leaf Utilities</a></li>
+				<li><a href="../../index.html" class="not-quite-bold">Leaf Utilities</a></li>
 				<li><a href="#!" class="not-quite-bold">Buy me a Koffee</a></li>
 			</ul>
 
 			<ul class="horizontal-list inline-block right">
-				<li><a href="#!">Back to the top</a></li>
-				<li><a href="#!">Home Page</a></li>
-				<li><a href="#!">Poject Github</a></li>
-				<li><a href="#!">Site Github</a></li>
-				<li><a href="#!">Licensing</a></li>
+				<li><a href="#top">Back to the top</a></li>
+				<li><a href="../../index.html">Home Page</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities">Poject Github</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities/tree/doc-pages">Site Github</a></li>
+				<li><a href="https://github.com/sage-etcher/leaf-c-utilities/blob/doc-pages/LICENSE">Licensing</a></li>
 				<li>&copy; Sage I. Hendricks 2023</li>
 			</ul>
-		</div>
+		</footer>
 
 
 	    <!-- Materialize JS include -->
@@ -252,6 +263,7 @@
 		<!-- Jquery include -->
 		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 		<!-- include javascript -->
-		<script src="./scripts/nav-bar.js"></script>	
+		<script src="../../scripts/nav-bar.js" async></script>	
+		<script src="../../scripts/search-bar.js" async></script>	
 	</body>
 </html>

@@ -46,3 +46,7 @@
 .small-text {
 	font-size: 14px;
 }
+
+.scrollable {
+	overflow-y: auto;
+}
