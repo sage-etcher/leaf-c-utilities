@@ -49,4 +49,5 @@
 
 .scrollable {
 	overflow-y: auto;
+	overflow-x: auto;
 }
