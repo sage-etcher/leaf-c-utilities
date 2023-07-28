@@ -86,7 +86,7 @@ function search_for_elements (list, search_term) {
 	for (let i = list.length - 1; i >= 0; i--) {
 		let element = list[i];
 
-		if (element.label.includes(search_term)) {
+		if ((element.label).toUpperCase().includes((search_term).toUpperCase())) {
 			sub_list.push(element);
 		}
 	}	
