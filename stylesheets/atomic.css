@@ -34,3 +34,15 @@
 .openbook-ico:after {
 	content: "menu_book";
 }
+
+.horizontal-list > li {
+	display: inline;
+}
+
+.not-quite-bold {
+	font-weight: 500;
+}
+
+.small-text {
+	font-size: 14px;
+}

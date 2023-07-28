@@ -57,3 +57,32 @@
 		margin: 0;
 	}
 }
+
+
+.footer {
+	padding: 40px 20px;
+	overflow: auto;
+}
+
+.footer > ul > li {
+	padding: 0.5em;
+}
+
+.footer * {
+	color:black;
+	font-size: 14px;
+}
+
+.footer > ul > li > a:hover {
+	color: dimgrey;
+	text-decoration-line: underline;
+}
+
+
+#page-main-title {
+	margin-top: 0;
+}
+
+#path-list {
+	margin: 25px 0;
+}
